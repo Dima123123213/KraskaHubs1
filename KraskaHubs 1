@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 286 | Scripts: 43 | Modules: 0 | Tags: 0
+-- Instances: 314 | Scripts: 48 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.KraskaHUB
@@ -34,6 +34,7 @@ G2L["3"]["SoundId"] = [[rbxassetid://95156028272944]];
 
 -- StarterGui.KraskaHUB.KeySystem
 G2L["4"] = Instance.new("Frame", G2L["1"]);
+G2L["4"]["Visible"] = false;
 G2L["4"]["BorderSizePixel"] = 0;
 G2L["4"]["BackgroundColor3"] = Color3.fromRGB(53, 53, 53);
 G2L["4"]["Size"] = UDim2.new(0.31051, 0, 0.29856, 0);
@@ -295,7 +296,6 @@ G2L["21"] = Instance.new("UIDragDetector", G2L["4"]);
 
 -- StarterGui.KraskaHUB.Library
 G2L["22"] = Instance.new("Frame", G2L["1"]);
-G2L["22"]["Visible"] = false;
 G2L["22"]["BorderSizePixel"] = 0;
 G2L["22"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["22"]["Size"] = UDim2.new(0.54517, 0, 0.44652, 0);
@@ -354,9 +354,9 @@ G2L["29"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], 
 G2L["29"]["BackgroundTransparency"] = 1;
 G2L["29"]["Size"] = UDim2.new(0.1725, 0, 0.38536, 0);
 G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["29"]["Text"] = [[Library]];
+G2L["29"]["Text"] = [[KraskaSploit]];
 G2L["29"]["Name"] = [[Library]];
-G2L["29"]["Position"] = UDim2.new(-0.02097, 0, 1.38062, 0);
+G2L["29"]["Position"] = UDim2.new(0.00961, 0, 1.32887, 0);
 
 
 -- StarterGui.KraskaHUB.Library.IconsCounter.Buttons.Library.LocalScript
@@ -383,7 +383,7 @@ G2L["2c"]["Size"] = UDim2.new(0.173, 0, 0.385, 0);
 G2L["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2c"]["Text"] = [[News]];
 G2L["2c"]["Name"] = [[News]];
-G2L["2c"]["Position"] = UDim2.new(-0.03206, 0, 1.89023, 0);
+G2L["2c"]["Position"] = UDim2.new(-0.03014, 0, 1.70909, 0);
 
 
 -- StarterGui.KraskaHUB.Library.IconsCounter.Buttons.News.LocalScript
@@ -880,7 +880,7 @@ G2L["52"]["Size"] = UDim2.new(0.173, 0, 0.385, 0);
 G2L["52"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["52"]["Text"] = [[Scripts]];
 G2L["52"]["Name"] = [[Scripts]];
-G2L["52"]["Position"] = UDim2.new(-0.02151, 0, 2.95249, 0);
+G2L["52"]["Position"] = UDim2.new(-0.02246, 0, 2.95249, 0);
 
 
 -- StarterGui.KraskaHUB.Library.IconsCounter.Buttons.Scripts.LocalScript
@@ -907,7 +907,7 @@ G2L["55"]["Size"] = UDim2.new(0.173, 0, 0.385, 0);
 G2L["55"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["55"]["Text"] = [[Settings]];
 G2L["55"]["Name"] = [[Settings]];
-G2L["55"]["Position"] = UDim2.new(-0.01482, 0, 3.41828, 0);
+G2L["55"]["Position"] = UDim2.new(-0.01577, 0, 3.32771, 0);
 
 
 -- StarterGui.KraskaHUB.Library.IconsCounter.Buttons.Settings.LocalScript
@@ -1302,7 +1302,6 @@ G2L["7f"]["Value"] = [[No Creator choosed]];
 
 -- StarterGui.KraskaHUB.Library.Library
 G2L["80"] = Instance.new("ScrollingFrame", G2L["22"]);
-G2L["80"]["Visible"] = false;
 G2L["80"]["Active"] = true;
 G2L["80"]["ZIndex"] = 0;
 G2L["80"]["BorderSizePixel"] = 0;
@@ -1326,7 +1325,7 @@ G2L["81"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], 
 G2L["81"]["BackgroundTransparency"] = 1;
 G2L["81"]["Size"] = UDim2.new(0.15879, 0, -0.04207, 0);
 G2L["81"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["81"]["Text"] = [[1. Prison Life]];
+G2L["81"]["Text"] = [[1. Quick Peak]];
 G2L["81"]["Position"] = UDim2.new(0.06173, 0, 0.04913, 0);
 
 
@@ -1689,6 +1688,7 @@ G2L["a3"]["BackgroundTransparency"] = 0.3;
 
 -- StarterGui.KraskaHUB.Library.Scripts
 G2L["a4"] = Instance.new("ScrollingFrame", G2L["22"]);
+G2L["a4"]["Visible"] = false;
 G2L["a4"]["Active"] = true;
 G2L["a4"]["ZIndex"] = 0;
 G2L["a4"]["BorderSizePixel"] = 0;
@@ -1758,7 +1758,7 @@ G2L["a9"]["Size"] = UDim2.new(0.15879, 0, -0.04207, 0);
 G2L["a9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["a9"]["Text"] = [[3. fling all]];
 G2L["a9"]["Name"] = [[fling all]];
-G2L["a9"]["Position"] = UDim2.new(0.06173, 0, 0.12777, 0);
+G2L["a9"]["Position"] = UDim2.new(0.06173, 0, 0.13004, 0);
 
 
 -- StarterGui.KraskaHUB.Library.Scripts.fling all.LocalScript
@@ -2039,924 +2039,1159 @@ G2L["c7"] = Instance.new("UIDragDetector", G2L["22"]);
 
 
 
--- StarterGui.KraskaHUB.PrisonScript
-G2L["c8"] = Instance.new("Frame", G2L["1"]);
+-- StarterGui.KraskaHUB.Library.QUICKAP
+G2L["c8"] = Instance.new("Frame", G2L["22"]);
 G2L["c8"]["Visible"] = false;
+G2L["c8"]["ZIndex"] = 0;
 G2L["c8"]["BorderSizePixel"] = 0;
-G2L["c8"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c8"]["Size"] = UDim2.new(0.54517, 0, 0.44652, 0);
-G2L["c8"]["Position"] = UDim2.new(0.22741, 0, 0.27674, 0);
+G2L["c8"]["BackgroundColor3"] = Color3.fromRGB(32, 32, 32);
+G2L["c8"]["Size"] = UDim2.new(0.00069, 0, 0.84789, 0);
+G2L["c8"]["Position"] = UDim2.new(0.9993, 0, 0.07989, 0);
 G2L["c8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c8"]["Name"] = [[PrisonScript]];
-G2L["c8"]["BackgroundTransparency"] = 0.3;
+G2L["c8"]["Name"] = [[QUICKAP]];
+G2L["c8"]["BackgroundTransparency"] = 0.05;
 
 
--- StarterGui.KraskaHUB.PrisonScript.Click
-G2L["c9"] = Instance.new("Sound", G2L["c8"]);
-G2L["c9"]["Volume"] = 2;
-G2L["c9"]["Name"] = [[Click]];
-G2L["c9"]["SoundId"] = [[rbxassetid://6324790483]];
-
-
--- StarterGui.KraskaHUB.PrisonScript.GameSelect
-G2L["ca"] = Instance.new("Sound", G2L["c8"]);
-G2L["ca"]["Name"] = [[GameSelect]];
-G2L["ca"]["SoundId"] = [[rbxassetid://90683869968677]];
-
-
--- StarterGui.KraskaHUB.PrisonScript.UICorner
-G2L["cb"] = Instance.new("UICorner", G2L["c8"]);
+-- StarterGui.KraskaHUB.Library.QUICKAP.UICorner
+G2L["c9"] = Instance.new("UICorner", G2L["c8"]);
 
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter
-G2L["cc"] = Instance.new("Frame", G2L["c8"]);
+-- StarterGui.KraskaHUB.Library.QUICKAP.Frame
+G2L["ca"] = Instance.new("Frame", G2L["c8"]);
+G2L["ca"]["BorderSizePixel"] = 0;
+G2L["ca"]["BackgroundColor3"] = Color3.fromRGB(91, 91, 91);
+G2L["ca"]["Size"] = UDim2.new(1.00793, 0, 0.09413, 0);
+G2L["ca"]["Position"] = UDim2.new(-0.00793, 0, 0, 0);
+G2L["ca"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.KraskaHUB.Library.QUICKAP.Frame.UICorner
+G2L["cb"] = Instance.new("UICorner", G2L["ca"]);
+
+
+
+-- StarterGui.KraskaHUB.Library.QUICKAP.Frame.TextLabel
+G2L["cc"] = Instance.new("TextLabel", G2L["ca"]);
+G2L["cc"]["TextWrapped"] = true;
 G2L["cc"]["BorderSizePixel"] = 0;
-G2L["cc"]["BackgroundColor3"] = Color3.fromRGB(39, 39, 39);
-G2L["cc"]["Size"] = UDim2.new(1, 0, 0.16042, 0);
+G2L["cc"]["TextSize"] = 14;
+G2L["cc"]["TextScaled"] = true;
+G2L["cc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["cc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["cc"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["cc"]["BackgroundTransparency"] = 1;
+G2L["cc"]["Size"] = UDim2.new(0.96441, 0, 0.8814, 0);
 G2L["cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cc"]["Name"] = [[IconsCounter]];
+G2L["cc"]["Text"] = [[Console API]];
+G2L["cc"]["Position"] = UDim2.new(0, 0, 0.05201, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.UICorner
-G2L["cd"] = Instance.new("UICorner", G2L["cc"]);
+-- StarterGui.KraskaHUB.Library.QUICKAP.Frame.TextLabel.UIStroke
+G2L["cd"] = Instance.new("UIStroke", G2L["cc"]);
+G2L["cd"]["Color"] = Color3.fromRGB(69, 69, 69);
 
 
-
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons
-G2L["ce"] = Instance.new("Folder", G2L["cc"]);
-G2L["ce"]["Name"] = [[Buttons]];
-
-
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.News
-G2L["cf"] = Instance.new("TextButton", G2L["ce"]);
-G2L["cf"]["TextWrapped"] = true;
-G2L["cf"]["BorderSizePixel"] = 0;
-G2L["cf"]["TextSize"] = 14;
-G2L["cf"]["TextScaled"] = true;
-G2L["cf"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["cf"]["BackgroundColor3"] = Color3.fromRGB(42, 99, 26);
-G2L["cf"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["cf"]["BackgroundTransparency"] = 1;
-G2L["cf"]["Size"] = UDim2.new(0.173, 0, 0.385, 0);
-G2L["cf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cf"]["Text"] = [[News]];
-G2L["cf"]["Name"] = [[News]];
-G2L["cf"]["Position"] = UDim2.new(-0.03206, 0, 1.89023, 0);
+-- StarterGui.KraskaHUB.Library.QUICKAP.Frame
+G2L["ce"] = Instance.new("Frame", G2L["c8"]);
+G2L["ce"]["BorderSizePixel"] = 0;
+G2L["ce"]["BackgroundColor3"] = Color3.fromRGB(91, 91, 91);
+G2L["ce"]["Size"] = UDim2.new(0.83237, 0, -0.87577, 0);
+G2L["ce"]["Position"] = UDim2.new(0.07437, 0, 0.9699, 0);
+G2L["ce"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.News.LocalScript
-G2L["d0"] = Instance.new("LocalScript", G2L["cf"]);
+-- StarterGui.KraskaHUB.Library.QUICKAP.Frame.UICorner
+G2L["cf"] = Instance.new("UICorner", G2L["ce"]);
 
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.News.UIStroke
-G2L["d1"] = Instance.new("UIStroke", G2L["cf"]);
+-- StarterGui.KraskaHUB.Library.QUICKAP.TextButton
+G2L["d0"] = Instance.new("TextButton", G2L["c8"]);
+G2L["d0"]["TextWrapped"] = true;
+G2L["d0"]["BorderSizePixel"] = 0;
+G2L["d0"]["TextSize"] = 14;
+G2L["d0"]["TextScaled"] = true;
+G2L["d0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["d0"]["BackgroundTransparency"] = 1;
+G2L["d0"]["Size"] = UDim2.new(0.61508, 0, 0.08813, 0);
+G2L["d0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d0"]["Text"] = [[Enable]];
+G2L["d0"]["Position"] = UDim2.new(0.16624, 0, 0.14198, 0);
+
+
+-- StarterGui.KraskaHUB.Library.QUICKAP.TextButton.LocalScript
+G2L["d1"] = Instance.new("LocalScript", G2L["d0"]);
 
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots
-G2L["d2"] = Instance.new("Folder", G2L["ce"]);
-G2L["d2"]["Name"] = [[Dots]];
+-- StarterGui.KraskaHUB.Library.QUICKAP.TextButton.Value
+G2L["d2"] = Instance.new("NumberValue", G2L["d0"]);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion
-G2L["d3"] = Instance.new("Folder", G2L["d2"]);
-G2L["d3"]["Name"] = [[Seccsion]];
+
+-- StarterGui.KraskaHUB.Library.QUICKAP.TextButton.skeleton
+G2L["d3"] = Instance.new("Decal", G2L["d0"]);
+-- [ERROR] cannot convert TextureContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["d3"]["Name"] = [[skeleton]];
+G2L["d3"]["Texture"] = [[http://www.roblox.com/asset/?id=11199270605]];
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.AssemblyMain
-G2L["d4"] = Instance.new("TextLabel", G2L["d3"]);
-G2L["d4"]["TextWrapped"] = true;
-G2L["d4"]["BorderSizePixel"] = 0;
-G2L["d4"]["TextSize"] = 14;
-G2L["d4"]["TextScaled"] = true;
-G2L["d4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d4"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d4"]["BackgroundTransparency"] = 1;
-G2L["d4"]["Size"] = UDim2.new(0.15143, 0, 0.60193, 0);
-G2L["d4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d4"]["Text"] = [[KraskaHub]];
-G2L["d4"]["Name"] = [[AssemblyMain]];
-G2L["d4"]["Position"] = UDim2.new(0.01524, 0, 0.28282, 0);
+-- StarterGui.KraskaHUB.Library.QUICKAP.TextButton.Bee
+G2L["d4"] = Instance.new("BoolValue", G2L["d0"]);
+G2L["d4"]["Name"] = [[Bee]];
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.AssemblyMain
-G2L["d5"] = Instance.new("TextLabel", G2L["d3"]);
+-- StarterGui.KraskaHUB.Library.QUICKAP.Mode
+G2L["d5"] = Instance.new("TextButton", G2L["c8"]);
 G2L["d5"]["TextWrapped"] = true;
 G2L["d5"]["BorderSizePixel"] = 0;
 G2L["d5"]["TextSize"] = 14;
 G2L["d5"]["TextScaled"] = true;
+G2L["d5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["d5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d5"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d5"]["TextColor3"] = Color3.fromRGB(108, 108, 108);
+G2L["d5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["d5"]["BackgroundTransparency"] = 1;
-G2L["d5"]["Size"] = UDim2.new(0.1181, 0, 0.31, 0);
+G2L["d5"]["Size"] = UDim2.new(0.79869, 0, 0.1356, 0);
 G2L["d5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d5"]["Text"] = [[Misc]];
-G2L["d5"]["Name"] = [[AssemblyMain]];
-G2L["d5"]["Position"] = UDim2.new(-0.0219, 0, 2.5862, 0);
+G2L["d5"]["Text"] = [[Fast mode]];
+G2L["d5"]["Name"] = [[Mode]];
+G2L["d5"]["Position"] = UDim2.new(0.09974, 0, 0.22766, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.NAME
-G2L["d6"] = Instance.new("TextLabel", G2L["d3"]);
-G2L["d6"]["TextWrapped"] = true;
-G2L["d6"]["BorderSizePixel"] = 0;
-G2L["d6"]["TextSize"] = 14;
-G2L["d6"]["TextScaled"] = true;
-G2L["d6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d6"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d6"]["BackgroundTransparency"] = 1;
-G2L["d6"]["Size"] = UDim2.new(0.11224, 0, 0.21165, 0);
-G2L["d6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d6"]["Text"] = [[KrasilLito]];
-G2L["d6"]["Name"] = [[NAME]];
-G2L["d6"]["Position"] = UDim2.new(0.047, 0, 5.691, 0);
-
-
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.NAME.LocalScript
-G2L["d7"] = Instance.new("LocalScript", G2L["d6"]);
+-- StarterGui.KraskaHUB.Library.QUICKAP.Mode.LocalScript
+G2L["d6"] = Instance.new("LocalScript", G2L["d5"]);
 
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.AssemblyMain
-G2L["d8"] = Instance.new("TextLabel", G2L["d3"]);
-G2L["d8"]["TextWrapped"] = true;
-G2L["d8"]["BorderSizePixel"] = 0;
-G2L["d8"]["TextSize"] = 14;
-G2L["d8"]["TextScaled"] = true;
-G2L["d8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d8"]["BackgroundTransparency"] = 1;
-G2L["d8"]["Size"] = UDim2.new(0.13506, 0, 0.25493, 0);
-G2L["d8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d8"]["Text"] = [[kraskahub.com | alpha build]];
-G2L["d8"]["Name"] = [[AssemblyMain]];
-G2L["d8"]["Position"] = UDim2.new(0.04678, 0, 5.89819, 0);
+-- StarterGui.KraskaHUB.Library.QUICKAP.Mode.Value
+G2L["d7"] = Instance.new("NumberValue", G2L["d5"]);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.AssemblyMain
-G2L["d9"] = Instance.new("TextLabel", G2L["d3"]);
+
+-- StarterGui.KraskaHUB.Library.QUICKAP.Mode.skeleton
+G2L["d8"] = Instance.new("Decal", G2L["d5"]);
+-- [ERROR] cannot convert TextureContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["d8"]["Name"] = [[skeleton]];
+G2L["d8"]["Texture"] = [[http://www.roblox.com/asset/?id=11199270605]];
+
+
+-- StarterGui.KraskaHUB.Library.QUICKAP.TweenMode
+G2L["d9"] = Instance.new("TextButton", G2L["c8"]);
 G2L["d9"]["TextWrapped"] = true;
 G2L["d9"]["BorderSizePixel"] = 0;
 G2L["d9"]["TextSize"] = 14;
 G2L["d9"]["TextScaled"] = true;
+G2L["d9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["d9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d9"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d9"]["TextColor3"] = Color3.fromRGB(108, 108, 108);
+G2L["d9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["d9"]["BackgroundTransparency"] = 1;
-G2L["d9"]["Size"] = UDim2.new(0.1181, 0, 0.31, 0);
+G2L["d9"]["Size"] = UDim2.new(0.82406, 0, 0.08314, 0);
 G2L["d9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d9"]["Text"] = [[Main]];
-G2L["d9"]["Name"] = [[AssemblyMain]];
-G2L["d9"]["Position"] = UDim2.new(-0.0219, 0, 0.99813, 0);
+G2L["d9"]["Text"] = [[Tween Mode]];
+G2L["d9"]["Name"] = [[TweenMode]];
+G2L["d9"]["Position"] = UDim2.new(0.08269, 0, 0.36325, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["da"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["da"]["TextWrapped"] = true;
-G2L["da"]["BorderSizePixel"] = 0;
-G2L["da"]["TextSize"] = 14;
-G2L["da"]["TextScaled"] = true;
-G2L["da"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["da"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["da"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["da"]["BackgroundTransparency"] = 1;
-G2L["da"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["da"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["da"]["Text"] = [[|]];
-G2L["da"]["Position"] = UDim2.new(0.15905, 0, -0.16277, 0);
+-- StarterGui.KraskaHUB.Library.QUICKAP.TweenMode.LocalScript
+G2L["da"] = Instance.new("LocalScript", G2L["d9"]);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["db"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["db"]["TextWrapped"] = true;
-G2L["db"]["BorderSizePixel"] = 0;
-G2L["db"]["TextSize"] = 14;
-G2L["db"]["TextScaled"] = true;
-G2L["db"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["db"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["db"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["db"]["BackgroundTransparency"] = 1;
-G2L["db"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["db"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["db"]["Text"] = [[|]];
-G2L["db"]["Rotation"] = 90;
-G2L["db"]["Position"] = UDim2.new(0.188, 0, 0.53667, 0);
+
+-- StarterGui.KraskaHUB.Library.QUICKAP.TweenMode.skeleton
+G2L["db"] = Instance.new("Decal", G2L["d9"]);
+-- [ERROR] cannot convert TextureContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["db"]["Name"] = [[skeleton]];
+G2L["db"]["Texture"] = [[http://www.roblox.com/asset/?id=11199270605]];
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["dc"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["dc"]["TextWrapped"] = true;
-G2L["dc"]["BorderSizePixel"] = 0;
-G2L["dc"]["TextSize"] = 14;
-G2L["dc"]["TextScaled"] = true;
-G2L["dc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["dc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["dc"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["dc"]["BackgroundTransparency"] = 1;
-G2L["dc"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["dc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["dc"]["Text"] = [[|]];
-G2L["dc"]["Position"] = UDim2.new(0.91, 0, 4.86282, 0);
+-- StarterGui.KraskaHUB.Library.QUICKAP.TweenMode.Value
+G2L["dc"] = Instance.new("BoolValue", G2L["d9"]);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["dd"] = Instance.new("TextLabel", G2L["d2"]);
+
+-- StarterGui.KraskaHUB.Library.QUICKAP.Fast
+G2L["dd"] = Instance.new("TextButton", G2L["c8"]);
 G2L["dd"]["TextWrapped"] = true;
 G2L["dd"]["BorderSizePixel"] = 0;
 G2L["dd"]["TextSize"] = 14;
 G2L["dd"]["TextScaled"] = true;
+G2L["dd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["dd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["dd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["dd"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
 G2L["dd"]["BackgroundTransparency"] = 1;
-G2L["dd"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["dd"]["Size"] = UDim2.new(0.82406, 0, 0.08314, 0);
 G2L["dd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["dd"]["Text"] = [[|]];
-G2L["dd"]["Position"] = UDim2.new(0.91, 0, 4.23869, 0);
+G2L["dd"]["Text"] = [[Run Mode]];
+G2L["dd"]["Name"] = [[Fast]];
+G2L["dd"]["Position"] = UDim2.new(0.07437, 0, 0.45138, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["de"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["de"]["TextWrapped"] = true;
-G2L["de"]["BorderSizePixel"] = 0;
-G2L["de"]["TextSize"] = 14;
-G2L["de"]["TextScaled"] = true;
-G2L["de"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["de"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["de"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["de"]["BackgroundTransparency"] = 1;
-G2L["de"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["de"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["de"]["Text"] = [[|]];
-G2L["de"]["Position"] = UDim2.new(0.91, 0, 3.60742, 0);
+-- StarterGui.KraskaHUB.Library.QUICKAP.Fast.LocalScript
+G2L["de"] = Instance.new("LocalScript", G2L["dd"]);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["df"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["df"]["TextWrapped"] = true;
-G2L["df"]["BorderSizePixel"] = 0;
-G2L["df"]["TextSize"] = 14;
-G2L["df"]["TextScaled"] = true;
-G2L["df"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["df"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["df"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["df"]["BackgroundTransparency"] = 1;
-G2L["df"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["df"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["df"]["Text"] = [[|]];
-G2L["df"]["Position"] = UDim2.new(0.91, 0, 2.97427, 0);
+
+-- StarterGui.KraskaHUB.Library.QUICKAP.Fast.skeleton
+G2L["df"] = Instance.new("Decal", G2L["dd"]);
+-- [ERROR] cannot convert TextureContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["df"]["Name"] = [[skeleton]];
+G2L["df"]["Texture"] = [[http://www.roblox.com/asset/?id=11199270605]];
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["e0"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["e0"]["TextWrapped"] = true;
-G2L["e0"]["BorderSizePixel"] = 0;
-G2L["e0"]["TextSize"] = 14;
-G2L["e0"]["TextScaled"] = true;
-G2L["e0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e0"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["e0"]["BackgroundTransparency"] = 1;
-G2L["e0"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e0"]["Text"] = [[|]];
-G2L["e0"]["Position"] = UDim2.new(0.91, 0, 2.35013, 0);
+-- StarterGui.KraskaHUB.Library.QUICKAP.Fast.Value
+G2L["e0"] = Instance.new("BoolValue", G2L["dd"]);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["e1"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["e1"]["TextWrapped"] = true;
+
+-- StarterGui.KraskaHUB.PrisonScript
+G2L["e1"] = Instance.new("Frame", G2L["1"]);
+G2L["e1"]["Visible"] = false;
 G2L["e1"]["BorderSizePixel"] = 0;
-G2L["e1"]["TextSize"] = 14;
-G2L["e1"]["TextScaled"] = true;
-G2L["e1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e1"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e1"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["e1"]["BackgroundTransparency"] = 1;
-G2L["e1"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["e1"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e1"]["Size"] = UDim2.new(0.54517, 0, 0.44652, 0);
+G2L["e1"]["Position"] = UDim2.new(0.22741, 0, 0.27674, 0);
 G2L["e1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e1"]["Text"] = [[|]];
-G2L["e1"]["Position"] = UDim2.new(0.15905, 0, 0.498, 0);
+G2L["e1"]["Name"] = [[PrisonScript]];
+G2L["e1"]["BackgroundTransparency"] = 0.3;
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["e2"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["e2"]["TextWrapped"] = true;
-G2L["e2"]["BorderSizePixel"] = 0;
-G2L["e2"]["TextSize"] = 14;
-G2L["e2"]["TextScaled"] = true;
-G2L["e2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e2"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["e2"]["BackgroundTransparency"] = 1;
-G2L["e2"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["e2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e2"]["Text"] = [[|]];
-G2L["e2"]["Rotation"] = 90;
-G2L["e2"]["Position"] = UDim2.new(0.892, 0, 0.56294, 0);
+-- StarterGui.KraskaHUB.PrisonScript.Click
+G2L["e2"] = Instance.new("Sound", G2L["e1"]);
+G2L["e2"]["Volume"] = 2;
+G2L["e2"]["Name"] = [[Click]];
+G2L["e2"]["SoundId"] = [[rbxassetid://6324790483]];
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["e3"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["e3"]["TextWrapped"] = true;
-G2L["e3"]["BorderSizePixel"] = 0;
-G2L["e3"]["TextSize"] = 14;
-G2L["e3"]["TextScaled"] = true;
-G2L["e3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e3"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["e3"]["BackgroundTransparency"] = 1;
-G2L["e3"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["e3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e3"]["Text"] = [[|]];
-G2L["e3"]["Position"] = UDim2.new(0.91, 0, 0.5, 0);
+-- StarterGui.KraskaHUB.PrisonScript.GameSelect
+G2L["e3"] = Instance.new("Sound", G2L["e1"]);
+G2L["e3"]["Name"] = [[GameSelect]];
+G2L["e3"]["SoundId"] = [[rbxassetid://90683869968677]];
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["e4"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["e4"]["TextWrapped"] = true;
-G2L["e4"]["BorderSizePixel"] = 0;
-G2L["e4"]["TextSize"] = 14;
-G2L["e4"]["TextScaled"] = true;
-G2L["e4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e4"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["e4"]["BackgroundTransparency"] = 1;
-G2L["e4"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["e4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e4"]["Text"] = [[|]];
-G2L["e4"]["Position"] = UDim2.new(0.91, 0, -0.16277, 0);
+-- StarterGui.KraskaHUB.PrisonScript.UICorner
+G2L["e4"] = Instance.new("UICorner", G2L["e1"]);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["e5"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["e5"]["TextWrapped"] = true;
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter
+G2L["e5"] = Instance.new("Frame", G2L["e1"]);
 G2L["e5"]["BorderSizePixel"] = 0;
-G2L["e5"]["TextSize"] = 14;
-G2L["e5"]["TextScaled"] = true;
-G2L["e5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e5"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["e5"]["BackgroundTransparency"] = 1;
-G2L["e5"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["e5"]["BackgroundColor3"] = Color3.fromRGB(39, 39, 39);
+G2L["e5"]["Size"] = UDim2.new(1, 0, 0.16042, 0);
 G2L["e5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e5"]["Text"] = [[|]];
-G2L["e5"]["Rotation"] = 90;
-G2L["e5"]["Position"] = UDim2.new(0.91417, 0, 5.27904, 0);
+G2L["e5"]["Name"] = [[IconsCounter]];
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["e6"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["e6"]["TextWrapped"] = true;
-G2L["e6"]["BorderSizePixel"] = 0;
-G2L["e6"]["TextSize"] = 14;
-G2L["e6"]["TextScaled"] = true;
-G2L["e6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e6"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["e6"]["BackgroundTransparency"] = 1;
-G2L["e6"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["e6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e6"]["Text"] = [[|]];
-G2L["e6"]["Rotation"] = 90;
-G2L["e6"]["Position"] = UDim2.new(0.16651, 0, 5.27904, 0);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.UICorner
+G2L["e6"] = Instance.new("UICorner", G2L["e5"]);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["e7"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["e7"]["TextWrapped"] = true;
-G2L["e7"]["BorderSizePixel"] = 0;
-G2L["e7"]["TextSize"] = 14;
-G2L["e7"]["TextScaled"] = true;
-G2L["e7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e7"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["e7"]["BackgroundTransparency"] = 1;
-G2L["e7"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["e7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e7"]["Text"] = [[|]];
-G2L["e7"]["Position"] = UDim2.new(0.15905, 0, 2.33937, 0);
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons
+G2L["e7"] = Instance.new("Folder", G2L["e5"]);
+G2L["e7"]["Name"] = [[Buttons]];
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["e8"] = Instance.new("TextLabel", G2L["d2"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.News
+G2L["e8"] = Instance.new("TextButton", G2L["e7"]);
 G2L["e8"]["TextWrapped"] = true;
 G2L["e8"]["BorderSizePixel"] = 0;
 G2L["e8"]["TextSize"] = 14;
 G2L["e8"]["TextScaled"] = true;
-G2L["e8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e8"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["e8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e8"]["BackgroundColor3"] = Color3.fromRGB(42, 99, 26);
+G2L["e8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["e8"]["BackgroundTransparency"] = 1;
-G2L["e8"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["e8"]["Size"] = UDim2.new(0.173, 0, 0.385, 0);
 G2L["e8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e8"]["Text"] = [[|]];
-G2L["e8"]["Position"] = UDim2.new(0.15905, 0, 2.96351, 0);
+G2L["e8"]["Text"] = [[News]];
+G2L["e8"]["Name"] = [[News]];
+G2L["e8"]["Position"] = UDim2.new(-0.03206, 0, 1.89023, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["e9"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["e9"]["TextWrapped"] = true;
-G2L["e9"]["BorderSizePixel"] = 0;
-G2L["e9"]["TextSize"] = 14;
-G2L["e9"]["TextScaled"] = true;
-G2L["e9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e9"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["e9"]["BackgroundTransparency"] = 1;
-G2L["e9"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["e9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e9"]["Text"] = [[|]];
-G2L["e9"]["Position"] = UDim2.new(0.15905, 0, 4.85206, 0);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.News.LocalScript
+G2L["e9"] = Instance.new("LocalScript", G2L["e8"]);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["ea"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["ea"]["TextWrapped"] = true;
-G2L["ea"]["BorderSizePixel"] = 0;
-G2L["ea"]["TextSize"] = 14;
-G2L["ea"]["TextScaled"] = true;
-G2L["ea"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ea"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["ea"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["ea"]["BackgroundTransparency"] = 1;
-G2L["ea"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["ea"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ea"]["Text"] = [[|]];
-G2L["ea"]["Position"] = UDim2.new(0.15905, 0, 4.22792, 0);
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.News.UIStroke
+G2L["ea"] = Instance.new("UIStroke", G2L["e8"]);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["eb"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["eb"]["TextWrapped"] = true;
-G2L["eb"]["BorderSizePixel"] = 0;
-G2L["eb"]["TextSize"] = 14;
-G2L["eb"]["TextScaled"] = true;
-G2L["eb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["eb"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["eb"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
-G2L["eb"]["BackgroundTransparency"] = 1;
-G2L["eb"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
-G2L["eb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["eb"]["Text"] = [[|]];
-G2L["eb"]["Position"] = UDim2.new(0.15905, 0, 3.59666, 0);
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots
+G2L["eb"] = Instance.new("Folder", G2L["e7"]);
+G2L["eb"]["Name"] = [[Dots]];
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["ec"] = Instance.new("TextLabel", G2L["d2"]);
-G2L["ec"]["TextWrapped"] = true;
-G2L["ec"]["BorderSizePixel"] = 0;
-G2L["ec"]["TextSize"] = 14;
-G2L["ec"]["TextScaled"] = true;
-G2L["ec"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ec"]["FontFace"] = Font.new([[rbxassetid://12187369639]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["ec"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ec"]["BackgroundTransparency"] = 1;
-G2L["ec"]["Size"] = UDim2.new(0.12286, 0, 0.44483, 0);
-G2L["ec"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ec"]["Text"] = [[🏆Injected]];
-G2L["ec"]["Position"] = UDim2.new(0.47519, 0, 0.28373, 0);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion
+G2L["ec"] = Instance.new("Folder", G2L["eb"]);
+G2L["ec"]["Name"] = [[Seccsion]];
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
-G2L["ed"] = Instance.new("TextLabel", G2L["d2"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.AssemblyMain
+G2L["ed"] = Instance.new("TextLabel", G2L["ec"]);
 G2L["ed"]["TextWrapped"] = true;
 G2L["ed"]["BorderSizePixel"] = 0;
 G2L["ed"]["TextSize"] = 14;
 G2L["ed"]["TextScaled"] = true;
 G2L["ed"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ed"]["FontFace"] = Font.new([[rbxassetid://12187369639]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["ed"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["ed"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["ed"]["BackgroundTransparency"] = 1;
-G2L["ed"]["Size"] = UDim2.new(0.12286, 0, 0.44483, 0);
+G2L["ed"]["Size"] = UDim2.new(0.15143, 0, 0.60193, 0);
 G2L["ed"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ed"]["Text"] = [[Prison Life]];
-G2L["ed"]["Position"] = UDim2.new(0.0288, 0, -0.02679, 0);
+G2L["ed"]["Text"] = [[KraskaHub]];
+G2L["ed"]["Name"] = [[AssemblyMain]];
+G2L["ed"]["Position"] = UDim2.new(0.01524, 0, 0.28282, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Tab
-G2L["ee"] = Instance.new("TextButton", G2L["ce"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.AssemblyMain
+G2L["ee"] = Instance.new("TextLabel", G2L["ec"]);
 G2L["ee"]["TextWrapped"] = true;
 G2L["ee"]["BorderSizePixel"] = 0;
 G2L["ee"]["TextSize"] = 14;
 G2L["ee"]["TextScaled"] = true;
-G2L["ee"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ee"]["BackgroundColor3"] = Color3.fromRGB(255, 226, 57);
-G2L["ee"]["FontFace"] = Font.new([[rbxassetid://12187369639]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["ee"]["Size"] = UDim2.new(0.01344, 0, 0.16962, 0);
+G2L["ee"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ee"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ee"]["TextColor3"] = Color3.fromRGB(108, 108, 108);
+G2L["ee"]["BackgroundTransparency"] = 1;
+G2L["ee"]["Size"] = UDim2.new(0.1181, 0, 0.31, 0);
 G2L["ee"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ee"]["Text"] = [[]];
-G2L["ee"]["Name"] = [[Tab]];
-G2L["ee"]["Position"] = UDim2.new(0.95557, 0, 0.08933, 0);
+G2L["ee"]["Text"] = [[Misc]];
+G2L["ee"]["Name"] = [[AssemblyMain]];
+G2L["ee"]["Position"] = UDim2.new(-0.0219, 0, 2.5862, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Tab.LocalScript
-G2L["ef"] = Instance.new("LocalScript", G2L["ee"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.NAME
+G2L["ef"] = Instance.new("TextLabel", G2L["ec"]);
+G2L["ef"]["TextWrapped"] = true;
+G2L["ef"]["BorderSizePixel"] = 0;
+G2L["ef"]["TextSize"] = 14;
+G2L["ef"]["TextScaled"] = true;
+G2L["ef"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ef"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ef"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ef"]["BackgroundTransparency"] = 1;
+G2L["ef"]["Size"] = UDim2.new(0.11224, 0, 0.21165, 0);
+G2L["ef"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ef"]["Text"] = [[KrasilLito]];
+G2L["ef"]["Name"] = [[NAME]];
+G2L["ef"]["Position"] = UDim2.new(0.047, 0, 5.691, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.NAME.LocalScript
+G2L["f0"] = Instance.new("LocalScript", G2L["ef"]);
 
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Tab.UIStroke
-G2L["f0"] = Instance.new("UIStroke", G2L["ee"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.AssemblyMain
+G2L["f1"] = Instance.new("TextLabel", G2L["ec"]);
+G2L["f1"]["TextWrapped"] = true;
+G2L["f1"]["BorderSizePixel"] = 0;
+G2L["f1"]["TextSize"] = 14;
+G2L["f1"]["TextScaled"] = true;
+G2L["f1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f1"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f1"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f1"]["BackgroundTransparency"] = 1;
+G2L["f1"]["Size"] = UDim2.new(0.13506, 0, 0.25493, 0);
+G2L["f1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f1"]["Text"] = [[kraskahub.com | alpha build]];
+G2L["f1"]["Name"] = [[AssemblyMain]];
+G2L["f1"]["Position"] = UDim2.new(0.04678, 0, 5.89819, 0);
 
 
-
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Tab.UICorner
-G2L["f1"] = Instance.new("UICorner", G2L["ee"]);
-G2L["f1"]["CornerRadius"] = UDim.new(2, 0);
-
-
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Library
-G2L["f2"] = Instance.new("TextButton", G2L["ce"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.AssemblyMain
+G2L["f2"] = Instance.new("TextLabel", G2L["ec"]);
 G2L["f2"]["TextWrapped"] = true;
 G2L["f2"]["BorderSizePixel"] = 0;
 G2L["f2"]["TextSize"] = 14;
 G2L["f2"]["TextScaled"] = true;
-G2L["f2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f2"]["BackgroundColor3"] = Color3.fromRGB(42, 99, 26);
+G2L["f2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["f2"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f2"]["TextColor3"] = Color3.fromRGB(108, 108, 108);
 G2L["f2"]["BackgroundTransparency"] = 1;
-G2L["f2"]["Size"] = UDim2.new(0.1725, 0, 0.38536, 0);
+G2L["f2"]["Size"] = UDim2.new(0.1181, 0, 0.31, 0);
 G2L["f2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f2"]["Text"] = [[Library]];
-G2L["f2"]["Name"] = [[Library]];
-G2L["f2"]["Position"] = UDim2.new(-0.02097, 0, 1.38062, 0);
+G2L["f2"]["Text"] = [[Main]];
+G2L["f2"]["Name"] = [[AssemblyMain]];
+G2L["f2"]["Position"] = UDim2.new(-0.0219, 0, 0.99813, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Library.LocalScript
-G2L["f3"] = Instance.new("LocalScript", G2L["f2"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["f3"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["f3"]["TextWrapped"] = true;
+G2L["f3"]["BorderSizePixel"] = 0;
+G2L["f3"]["TextSize"] = 14;
+G2L["f3"]["TextScaled"] = true;
+G2L["f3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f3"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["f3"]["BackgroundTransparency"] = 1;
+G2L["f3"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["f3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f3"]["Text"] = [[|]];
+G2L["f3"]["Position"] = UDim2.new(0.15905, 0, -0.16277, 0);
 
 
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["f4"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["f4"]["TextWrapped"] = true;
+G2L["f4"]["BorderSizePixel"] = 0;
+G2L["f4"]["TextSize"] = 14;
+G2L["f4"]["TextScaled"] = true;
+G2L["f4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f4"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["f4"]["BackgroundTransparency"] = 1;
+G2L["f4"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["f4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f4"]["Text"] = [[|]];
+G2L["f4"]["Rotation"] = 90;
+G2L["f4"]["Position"] = UDim2.new(0.188, 0, 0.53667, 0);
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Library.UIStroke
-G2L["f4"] = Instance.new("UIStroke", G2L["f2"]);
 
-
-
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Settings
-G2L["f5"] = Instance.new("TextButton", G2L["ce"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["f5"] = Instance.new("TextLabel", G2L["eb"]);
 G2L["f5"]["TextWrapped"] = true;
 G2L["f5"]["BorderSizePixel"] = 0;
 G2L["f5"]["TextSize"] = 14;
 G2L["f5"]["TextScaled"] = true;
-G2L["f5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f5"]["BackgroundColor3"] = Color3.fromRGB(42, 99, 26);
-G2L["f5"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f5"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
 G2L["f5"]["BackgroundTransparency"] = 1;
-G2L["f5"]["Size"] = UDim2.new(0.173, 0, 0.385, 0);
+G2L["f5"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
 G2L["f5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f5"]["Text"] = [[Settings]];
-G2L["f5"]["Name"] = [[Settings]];
-G2L["f5"]["Position"] = UDim2.new(-0.01482, 0, 3.00425, 0);
+G2L["f5"]["Text"] = [[|]];
+G2L["f5"]["Position"] = UDim2.new(0.91, 0, 4.86282, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Settings.LocalScript
-G2L["f6"] = Instance.new("LocalScript", G2L["f5"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["f6"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["f6"]["TextWrapped"] = true;
+G2L["f6"]["BorderSizePixel"] = 0;
+G2L["f6"]["TextSize"] = 14;
+G2L["f6"]["TextScaled"] = true;
+G2L["f6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f6"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["f6"]["BackgroundTransparency"] = 1;
+G2L["f6"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["f6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f6"]["Text"] = [[|]];
+G2L["f6"]["Position"] = UDim2.new(0.91, 0, 4.23869, 0);
 
 
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["f7"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["f7"]["TextWrapped"] = true;
+G2L["f7"]["BorderSizePixel"] = 0;
+G2L["f7"]["TextSize"] = 14;
+G2L["f7"]["TextScaled"] = true;
+G2L["f7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f7"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["f7"]["BackgroundTransparency"] = 1;
+G2L["f7"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["f7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f7"]["Text"] = [[|]];
+G2L["f7"]["Position"] = UDim2.new(0.91, 0, 3.60742, 0);
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Settings.UIStroke
-G2L["f7"] = Instance.new("UIStroke", G2L["f5"]);
 
-
-
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Close
-G2L["f8"] = Instance.new("TextButton", G2L["ce"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["f8"] = Instance.new("TextLabel", G2L["eb"]);
 G2L["f8"]["TextWrapped"] = true;
 G2L["f8"]["BorderSizePixel"] = 0;
 G2L["f8"]["TextSize"] = 14;
 G2L["f8"]["TextScaled"] = true;
-G2L["f8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f8"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["f8"]["FontFace"] = Font.new([[rbxassetid://12187369639]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["f8"]["Size"] = UDim2.new(0.01344, 0, 0.16962, 0);
+G2L["f8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f8"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["f8"]["BackgroundTransparency"] = 1;
+G2L["f8"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
 G2L["f8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f8"]["Text"] = [[]];
-G2L["f8"]["Name"] = [[Close]];
-G2L["f8"]["Position"] = UDim2.new(0.97472, 0, 0.08933, 0);
+G2L["f8"]["Text"] = [[|]];
+G2L["f8"]["Position"] = UDim2.new(0.91, 0, 2.97427, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Close.LocalScript
-G2L["f9"] = Instance.new("LocalScript", G2L["f8"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["f9"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["f9"]["TextWrapped"] = true;
+G2L["f9"]["BorderSizePixel"] = 0;
+G2L["f9"]["TextSize"] = 14;
+G2L["f9"]["TextScaled"] = true;
+G2L["f9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f9"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["f9"]["BackgroundTransparency"] = 1;
+G2L["f9"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["f9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f9"]["Text"] = [[|]];
+G2L["f9"]["Position"] = UDim2.new(0.91, 0, 2.35013, 0);
 
 
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["fa"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["fa"]["TextWrapped"] = true;
+G2L["fa"]["BorderSizePixel"] = 0;
+G2L["fa"]["TextSize"] = 14;
+G2L["fa"]["TextScaled"] = true;
+G2L["fa"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fa"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["fa"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["fa"]["BackgroundTransparency"] = 1;
+G2L["fa"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["fa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fa"]["Text"] = [[|]];
+G2L["fa"]["Position"] = UDim2.new(0.15905, 0, 0.498, 0);
 
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Close.UIStroke
-G2L["fa"] = Instance.new("UIStroke", G2L["f8"]);
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["fb"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["fb"]["TextWrapped"] = true;
+G2L["fb"]["BorderSizePixel"] = 0;
+G2L["fb"]["TextSize"] = 14;
+G2L["fb"]["TextScaled"] = true;
+G2L["fb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fb"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["fb"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["fb"]["BackgroundTransparency"] = 1;
+G2L["fb"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["fb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fb"]["Text"] = [[|]];
+G2L["fb"]["Rotation"] = 90;
+G2L["fb"]["Position"] = UDim2.new(0.892, 0, 0.56294, 0);
 
 
-
--- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Close.UICorner
-G2L["fb"] = Instance.new("UICorner", G2L["f8"]);
-G2L["fb"]["CornerRadius"] = UDim.new(2, 0);
-
-
--- StarterGui.KraskaHUB.PrisonScript.ButtonsList
-G2L["fc"] = Instance.new("Frame", G2L["c8"]);
-G2L["fc"]["ZIndex"] = 0;
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["fc"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["fc"]["TextWrapped"] = true;
 G2L["fc"]["BorderSizePixel"] = 0;
-G2L["fc"]["BackgroundColor3"] = Color3.fromRGB(39, 39, 39);
-G2L["fc"]["Size"] = UDim2.new(0.07092, 0, 0.9981, 0);
-G2L["fc"]["Position"] = UDim2.new(0.92857, 0, 0, 0);
+G2L["fc"]["TextSize"] = 14;
+G2L["fc"]["TextScaled"] = true;
+G2L["fc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["fc"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["fc"]["BackgroundTransparency"] = 1;
+G2L["fc"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
 G2L["fc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fc"]["Name"] = [[ButtonsList]];
+G2L["fc"]["Text"] = [[|]];
+G2L["fc"]["Position"] = UDim2.new(0.91, 0, 0.5, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.ButtonsList.UICorner
-G2L["fd"] = Instance.new("UICorner", G2L["fc"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["fd"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["fd"]["TextWrapped"] = true;
+G2L["fd"]["BorderSizePixel"] = 0;
+G2L["fd"]["TextSize"] = 14;
+G2L["fd"]["TextScaled"] = true;
+G2L["fd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["fd"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["fd"]["BackgroundTransparency"] = 1;
+G2L["fd"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["fd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fd"]["Text"] = [[|]];
+G2L["fd"]["Position"] = UDim2.new(0.91, 0, -0.16277, 0);
 
 
-
--- StarterGui.KraskaHUB.PrisonScript.NoSelected
-G2L["fe"] = Instance.new("ScrollingFrame", G2L["c8"]);
-G2L["fe"]["Visible"] = false;
-G2L["fe"]["Active"] = true;
-G2L["fe"]["ZIndex"] = 0;
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["fe"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["fe"]["TextWrapped"] = true;
 G2L["fe"]["BorderSizePixel"] = 0;
-G2L["fe"]["BackgroundColor3"] = Color3.fromRGB(22, 22, 22);
-G2L["fe"]["Name"] = [[NoSelected]];
-G2L["fe"]["Size"] = UDim2.new(0.74705, 0, 0.8403, 0);
-G2L["fe"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fe"]["Position"] = UDim2.new(0.1819, 0, 0.1597, 0);
+G2L["fe"]["TextSize"] = 14;
+G2L["fe"]["TextScaled"] = true;
+G2L["fe"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fe"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["fe"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["fe"]["BackgroundTransparency"] = 1;
+G2L["fe"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
 G2L["fe"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fe"]["Text"] = [[|]];
+G2L["fe"]["Rotation"] = 90;
+G2L["fe"]["Position"] = UDim2.new(0.91417, 0, 5.27904, 0);
 
 
--- StarterGui.KraskaHUB.PrisonScript.NoSelected.TextLabel
-G2L["ff"] = Instance.new("TextLabel", G2L["fe"]);
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["ff"] = Instance.new("TextLabel", G2L["eb"]);
 G2L["ff"]["TextWrapped"] = true;
 G2L["ff"]["BorderSizePixel"] = 0;
 G2L["ff"]["TextSize"] = 14;
 G2L["ff"]["TextScaled"] = true;
 G2L["ff"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ff"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["ff"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ff"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ff"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
 G2L["ff"]["BackgroundTransparency"] = 1;
-G2L["ff"]["Size"] = UDim2.new(0.716, 0, -0.0269, 0);
+G2L["ff"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
 G2L["ff"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ff"]["Text"] = [[1. KrasilLito, welocome to KraskaHub. The best hub for roblox]];
-G2L["ff"]["Position"] = UDim2.new(0.02376, 0, 0.0407, 0);
+G2L["ff"]["Text"] = [[|]];
+G2L["ff"]["Rotation"] = 90;
+G2L["ff"]["Position"] = UDim2.new(0.16651, 0, 5.27904, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["100"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["100"]["TextWrapped"] = true;
+G2L["100"]["BorderSizePixel"] = 0;
+G2L["100"]["TextSize"] = 14;
+G2L["100"]["TextScaled"] = true;
+G2L["100"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["100"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["100"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["100"]["BackgroundTransparency"] = 1;
+G2L["100"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["100"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["100"]["Text"] = [[|]];
+G2L["100"]["Position"] = UDim2.new(0.15905, 0, 2.33937, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["101"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["101"]["TextWrapped"] = true;
+G2L["101"]["BorderSizePixel"] = 0;
+G2L["101"]["TextSize"] = 14;
+G2L["101"]["TextScaled"] = true;
+G2L["101"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["101"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["101"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["101"]["BackgroundTransparency"] = 1;
+G2L["101"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["101"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["101"]["Text"] = [[|]];
+G2L["101"]["Position"] = UDim2.new(0.15905, 0, 2.96351, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["102"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["102"]["TextWrapped"] = true;
+G2L["102"]["BorderSizePixel"] = 0;
+G2L["102"]["TextSize"] = 14;
+G2L["102"]["TextScaled"] = true;
+G2L["102"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["102"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["102"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["102"]["BackgroundTransparency"] = 1;
+G2L["102"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["102"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["102"]["Text"] = [[|]];
+G2L["102"]["Position"] = UDim2.new(0.15905, 0, 4.85206, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["103"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["103"]["TextWrapped"] = true;
+G2L["103"]["BorderSizePixel"] = 0;
+G2L["103"]["TextSize"] = 14;
+G2L["103"]["TextScaled"] = true;
+G2L["103"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["103"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["103"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["103"]["BackgroundTransparency"] = 1;
+G2L["103"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["103"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["103"]["Text"] = [[|]];
+G2L["103"]["Position"] = UDim2.new(0.15905, 0, 4.22792, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["104"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["104"]["TextWrapped"] = true;
+G2L["104"]["BorderSizePixel"] = 0;
+G2L["104"]["TextSize"] = 14;
+G2L["104"]["TextScaled"] = true;
+G2L["104"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["104"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["104"]["TextColor3"] = Color3.fromRGB(99, 99, 99);
+G2L["104"]["BackgroundTransparency"] = 1;
+G2L["104"]["Size"] = UDim2.new(0.04095, 0, 0.83709, 0);
+G2L["104"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["104"]["Text"] = [[|]];
+G2L["104"]["Position"] = UDim2.new(0.15905, 0, 3.59666, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["105"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["105"]["TextWrapped"] = true;
+G2L["105"]["BorderSizePixel"] = 0;
+G2L["105"]["TextSize"] = 14;
+G2L["105"]["TextScaled"] = true;
+G2L["105"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["105"]["FontFace"] = Font.new([[rbxassetid://12187369639]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["105"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["105"]["BackgroundTransparency"] = 1;
+G2L["105"]["Size"] = UDim2.new(0.12286, 0, 0.44483, 0);
+G2L["105"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["105"]["Text"] = [[🏆Injected]];
+G2L["105"]["Position"] = UDim2.new(0.47519, 0, 0.28373, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.TextLabel
+G2L["106"] = Instance.new("TextLabel", G2L["eb"]);
+G2L["106"]["TextWrapped"] = true;
+G2L["106"]["BorderSizePixel"] = 0;
+G2L["106"]["TextSize"] = 14;
+G2L["106"]["TextScaled"] = true;
+G2L["106"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["106"]["FontFace"] = Font.new([[rbxassetid://12187369639]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["106"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["106"]["BackgroundTransparency"] = 1;
+G2L["106"]["Size"] = UDim2.new(0.12286, 0, 0.44483, 0);
+G2L["106"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["106"]["Text"] = [[Prison Life]];
+G2L["106"]["Position"] = UDim2.new(0.0288, 0, -0.02679, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Tab
+G2L["107"] = Instance.new("TextButton", G2L["e7"]);
+G2L["107"]["TextWrapped"] = true;
+G2L["107"]["BorderSizePixel"] = 0;
+G2L["107"]["TextSize"] = 14;
+G2L["107"]["TextScaled"] = true;
+G2L["107"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["107"]["BackgroundColor3"] = Color3.fromRGB(255, 226, 57);
+G2L["107"]["FontFace"] = Font.new([[rbxassetid://12187369639]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["107"]["Size"] = UDim2.new(0.01344, 0, 0.16962, 0);
+G2L["107"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["107"]["Text"] = [[]];
+G2L["107"]["Name"] = [[Tab]];
+G2L["107"]["Position"] = UDim2.new(0.95557, 0, 0.08933, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Tab.LocalScript
+G2L["108"] = Instance.new("LocalScript", G2L["107"]);
+
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Tab.UIStroke
+G2L["109"] = Instance.new("UIStroke", G2L["107"]);
+
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Tab.UICorner
+G2L["10a"] = Instance.new("UICorner", G2L["107"]);
+G2L["10a"]["CornerRadius"] = UDim.new(2, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Library
+G2L["10b"] = Instance.new("TextButton", G2L["e7"]);
+G2L["10b"]["TextWrapped"] = true;
+G2L["10b"]["BorderSizePixel"] = 0;
+G2L["10b"]["TextSize"] = 14;
+G2L["10b"]["TextScaled"] = true;
+G2L["10b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10b"]["BackgroundColor3"] = Color3.fromRGB(42, 99, 26);
+G2L["10b"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["10b"]["BackgroundTransparency"] = 1;
+G2L["10b"]["Size"] = UDim2.new(0.1725, 0, 0.38536, 0);
+G2L["10b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10b"]["Text"] = [[Library]];
+G2L["10b"]["Name"] = [[Library]];
+G2L["10b"]["Position"] = UDim2.new(-0.02097, 0, 1.38062, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Library.LocalScript
+G2L["10c"] = Instance.new("LocalScript", G2L["10b"]);
+
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Library.UIStroke
+G2L["10d"] = Instance.new("UIStroke", G2L["10b"]);
+
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Settings
+G2L["10e"] = Instance.new("TextButton", G2L["e7"]);
+G2L["10e"]["TextWrapped"] = true;
+G2L["10e"]["BorderSizePixel"] = 0;
+G2L["10e"]["TextSize"] = 14;
+G2L["10e"]["TextScaled"] = true;
+G2L["10e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10e"]["BackgroundColor3"] = Color3.fromRGB(42, 99, 26);
+G2L["10e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["10e"]["BackgroundTransparency"] = 1;
+G2L["10e"]["Size"] = UDim2.new(0.173, 0, 0.385, 0);
+G2L["10e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10e"]["Text"] = [[Settings]];
+G2L["10e"]["Name"] = [[Settings]];
+G2L["10e"]["Position"] = UDim2.new(-0.01482, 0, 3.00425, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Settings.LocalScript
+G2L["10f"] = Instance.new("LocalScript", G2L["10e"]);
+
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Settings.UIStroke
+G2L["110"] = Instance.new("UIStroke", G2L["10e"]);
+
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Close
+G2L["111"] = Instance.new("TextButton", G2L["e7"]);
+G2L["111"]["TextWrapped"] = true;
+G2L["111"]["BorderSizePixel"] = 0;
+G2L["111"]["TextSize"] = 14;
+G2L["111"]["TextScaled"] = true;
+G2L["111"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["111"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["111"]["FontFace"] = Font.new([[rbxassetid://12187369639]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["111"]["Size"] = UDim2.new(0.01344, 0, 0.16962, 0);
+G2L["111"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["111"]["Text"] = [[]];
+G2L["111"]["Name"] = [[Close]];
+G2L["111"]["Position"] = UDim2.new(0.97472, 0, 0.08933, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Close.LocalScript
+G2L["112"] = Instance.new("LocalScript", G2L["111"]);
+
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Close.UIStroke
+G2L["113"] = Instance.new("UIStroke", G2L["111"]);
+
+
+
+-- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Close.UICorner
+G2L["114"] = Instance.new("UICorner", G2L["111"]);
+G2L["114"]["CornerRadius"] = UDim.new(2, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.ButtonsList
+G2L["115"] = Instance.new("Frame", G2L["e1"]);
+G2L["115"]["ZIndex"] = 0;
+G2L["115"]["BorderSizePixel"] = 0;
+G2L["115"]["BackgroundColor3"] = Color3.fromRGB(39, 39, 39);
+G2L["115"]["Size"] = UDim2.new(0.07092, 0, 0.9981, 0);
+G2L["115"]["Position"] = UDim2.new(0.92857, 0, 0, 0);
+G2L["115"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["115"]["Name"] = [[ButtonsList]];
+
+
+-- StarterGui.KraskaHUB.PrisonScript.ButtonsList.UICorner
+G2L["116"] = Instance.new("UICorner", G2L["115"]);
+
+
+
+-- StarterGui.KraskaHUB.PrisonScript.NoSelected
+G2L["117"] = Instance.new("ScrollingFrame", G2L["e1"]);
+G2L["117"]["Visible"] = false;
+G2L["117"]["Active"] = true;
+G2L["117"]["ZIndex"] = 0;
+G2L["117"]["BorderSizePixel"] = 0;
+G2L["117"]["BackgroundColor3"] = Color3.fromRGB(22, 22, 22);
+G2L["117"]["Name"] = [[NoSelected]];
+G2L["117"]["Size"] = UDim2.new(0.74705, 0, 0.8403, 0);
+G2L["117"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["117"]["Position"] = UDim2.new(0.1819, 0, 0.1597, 0);
+G2L["117"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.KraskaHUB.PrisonScript.NoSelected.TextLabel
+G2L["118"] = Instance.new("TextLabel", G2L["117"]);
+G2L["118"]["TextWrapped"] = true;
+G2L["118"]["BorderSizePixel"] = 0;
+G2L["118"]["TextSize"] = 14;
+G2L["118"]["TextScaled"] = true;
+G2L["118"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["118"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["118"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["118"]["BackgroundTransparency"] = 1;
+G2L["118"]["Size"] = UDim2.new(0.716, 0, -0.0269, 0);
+G2L["118"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["118"]["Text"] = [[1. KrasilLito, welocome to KraskaHub. The best hub for roblox]];
+G2L["118"]["Position"] = UDim2.new(0.02376, 0, 0.0407, 0);
 
 
 -- StarterGui.KraskaHUB.PrisonScript.NoSelected.TextLabel.LocalScript
-G2L["100"] = Instance.new("LocalScript", G2L["ff"]);
+G2L["119"] = Instance.new("LocalScript", G2L["118"]);
 
 
 
 -- StarterGui.KraskaHUB.PrisonScript.EarsIcon
-G2L["101"] = Instance.new("ImageLabel", G2L["c8"]);
-G2L["101"]["ZIndex"] = 0;
-G2L["101"]["BorderSizePixel"] = 0;
-G2L["101"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11a"] = Instance.new("ImageLabel", G2L["e1"]);
+G2L["11a"]["ZIndex"] = 0;
+G2L["11a"]["BorderSizePixel"] = 0;
+G2L["11a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["101"]["Image"] = [[rbxassetid://806561745]];
-G2L["101"]["Size"] = UDim2.new(0.26815, 0, 0.39805, 0);
-G2L["101"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["101"]["BackgroundTransparency"] = 1;
-G2L["101"]["Name"] = [[EarsIcon]];
-G2L["101"]["Position"] = UDim2.new(0.40309, 0, -0.23821, 0);
+G2L["11a"]["Image"] = [[rbxassetid://806561745]];
+G2L["11a"]["Size"] = UDim2.new(0.26815, 0, 0.39805, 0);
+G2L["11a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11a"]["BackgroundTransparency"] = 1;
+G2L["11a"]["Name"] = [[EarsIcon]];
+G2L["11a"]["Position"] = UDim2.new(0.40309, 0, -0.23821, 0);
 
 
 -- StarterGui.KraskaHUB.PrisonScript.EarsIcon.UICorner
-G2L["102"] = Instance.new("UICorner", G2L["101"]);
+G2L["11b"] = Instance.new("UICorner", G2L["11a"]);
 
 
 
 -- StarterGui.KraskaHUB.PrisonScript.PlayerIcon
-G2L["103"] = Instance.new("ImageLabel", G2L["c8"]);
-G2L["103"]["BorderSizePixel"] = 0;
-G2L["103"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11c"] = Instance.new("ImageLabel", G2L["e1"]);
+G2L["11c"]["BorderSizePixel"] = 0;
+G2L["11c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["103"]["Image"] = [[rbxassetid://655452150]];
-G2L["103"]["Size"] = UDim2.new(0.04575, 0, 0.08481, 0);
-G2L["103"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["103"]["BackgroundTransparency"] = 0.95;
-G2L["103"]["Name"] = [[PlayerIcon]];
-G2L["103"]["Position"] = UDim2.new(0.00024, 0, 0.90226, 0);
+G2L["11c"]["Image"] = [[rbxassetid://655452150]];
+G2L["11c"]["Size"] = UDim2.new(0.04575, 0, 0.08481, 0);
+G2L["11c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11c"]["BackgroundTransparency"] = 0.95;
+G2L["11c"]["Name"] = [[PlayerIcon]];
+G2L["11c"]["Position"] = UDim2.new(0.00024, 0, 0.90226, 0);
 
 
 -- StarterGui.KraskaHUB.PrisonScript.PlayerIcon.UICorner
-G2L["104"] = Instance.new("UICorner", G2L["103"]);
+G2L["11d"] = Instance.new("UICorner", G2L["11c"]);
 
 
 
 -- StarterGui.KraskaHUB.PrisonScript.Lol
-G2L["105"] = Instance.new("Frame", G2L["c8"]);
-G2L["105"]["ZIndex"] = 0;
-G2L["105"]["BorderSizePixel"] = 0;
-G2L["105"]["BackgroundColor3"] = Color3.fromRGB(39, 39, 39);
-G2L["105"]["Size"] = UDim2.new(-0.76824, 0, 0.08374, 0);
-G2L["105"]["Position"] = UDim2.new(0.94094, 0, 0.91436, 0);
-G2L["105"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["105"]["Name"] = [[Lol]];
+G2L["11e"] = Instance.new("Frame", G2L["e1"]);
+G2L["11e"]["ZIndex"] = 0;
+G2L["11e"]["BorderSizePixel"] = 0;
+G2L["11e"]["BackgroundColor3"] = Color3.fromRGB(39, 39, 39);
+G2L["11e"]["Size"] = UDim2.new(-0.76824, 0, 0.08374, 0);
+G2L["11e"]["Position"] = UDim2.new(0.94094, 0, 0.91436, 0);
+G2L["11e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11e"]["Name"] = [[Lol]];
 
 
 -- StarterGui.KraskaHUB.PrisonScript.Lol.UICorner
-G2L["106"] = Instance.new("UICorner", G2L["105"]);
+G2L["11f"] = Instance.new("UICorner", G2L["11e"]);
 
 
 
 -- StarterGui.KraskaHUB.PrisonScript.Library
-G2L["107"] = Instance.new("ScrollingFrame", G2L["c8"]);
-G2L["107"]["Active"] = true;
-G2L["107"]["ZIndex"] = 0;
-G2L["107"]["BorderSizePixel"] = 0;
-G2L["107"]["BackgroundColor3"] = Color3.fromRGB(22, 22, 22);
-G2L["107"]["Name"] = [[Library]];
-G2L["107"]["Size"] = UDim2.new(0.74705, 0, 0.75467, 0);
-G2L["107"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["107"]["Position"] = UDim2.new(0.1819, 0, 0.1597, 0);
-G2L["107"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["120"] = Instance.new("ScrollingFrame", G2L["e1"]);
+G2L["120"]["Active"] = true;
+G2L["120"]["ZIndex"] = 0;
+G2L["120"]["BorderSizePixel"] = 0;
+G2L["120"]["BackgroundColor3"] = Color3.fromRGB(22, 22, 22);
+G2L["120"]["Name"] = [[Library]];
+G2L["120"]["Size"] = UDim2.new(0.74705, 0, 0.75467, 0);
+G2L["120"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["120"]["Position"] = UDim2.new(0.1819, 0, 0.1597, 0);
+G2L["120"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 
 -- StarterGui.KraskaHUB.PrisonScript.Library.TextButton
-G2L["108"] = Instance.new("TextButton", G2L["107"]);
-G2L["108"]["TextWrapped"] = true;
-G2L["108"]["BorderSizePixel"] = 0;
-G2L["108"]["TextSize"] = 14;
-G2L["108"]["TextScaled"] = true;
-G2L["108"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["108"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["108"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["108"]["BackgroundTransparency"] = 1;
-G2L["108"]["Size"] = UDim2.new(0.15879, 0, -0.04207, 0);
-G2L["108"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["108"]["Text"] = [[1. Prison Life]];
-G2L["108"]["Position"] = UDim2.new(0.06173, 0, 0.04913, 0);
+G2L["121"] = Instance.new("TextButton", G2L["120"]);
+G2L["121"]["TextWrapped"] = true;
+G2L["121"]["BorderSizePixel"] = 0;
+G2L["121"]["TextSize"] = 14;
+G2L["121"]["TextScaled"] = true;
+G2L["121"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["121"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["121"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["121"]["BackgroundTransparency"] = 1;
+G2L["121"]["Size"] = UDim2.new(0.15879, 0, -0.04207, 0);
+G2L["121"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["121"]["Text"] = [[1. Prison Life]];
+G2L["121"]["Position"] = UDim2.new(0.06173, 0, 0.04913, 0);
 
 
 -- StarterGui.KraskaHUB.PrisonScript.Library.TextButton.LocalScript
-G2L["109"] = Instance.new("LocalScript", G2L["108"]);
+G2L["122"] = Instance.new("LocalScript", G2L["121"]);
 
 
 
 -- StarterGui.KraskaHUB.PrisonScript.HubIcon
-G2L["10a"] = Instance.new("ImageLabel", G2L["c8"]);
-G2L["10a"]["BorderSizePixel"] = 0;
-G2L["10a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["123"] = Instance.new("ImageLabel", G2L["e1"]);
+G2L["123"]["BorderSizePixel"] = 0;
+G2L["123"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["10a"]["Image"] = [[rbxassetid://5270363]];
-G2L["10a"]["Size"] = UDim2.new(0.08685, 0, 0.15268, 0);
-G2L["10a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10a"]["BackgroundTransparency"] = 1;
-G2L["10a"]["Rotation"] = -27;
-G2L["10a"]["Name"] = [[HubIcon]];
-G2L["10a"]["Position"] = UDim2.new(-0.03226, 0, -0.04359, 0);
+G2L["123"]["Image"] = [[rbxassetid://5270363]];
+G2L["123"]["Size"] = UDim2.new(0.08685, 0, 0.15268, 0);
+G2L["123"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["123"]["BackgroundTransparency"] = 1;
+G2L["123"]["Rotation"] = -27;
+G2L["123"]["Name"] = [[HubIcon]];
+G2L["123"]["Position"] = UDim2.new(-0.03226, 0, -0.04359, 0);
 
 
 -- StarterGui.KraskaHUB.PrisonScript.HubIcon.UICorner
-G2L["10b"] = Instance.new("UICorner", G2L["10a"]);
+G2L["124"] = Instance.new("UICorner", G2L["123"]);
 
 
 
 -- StarterGui.KraskaHUB.PrisonScript.ButtonsList
-G2L["10c"] = Instance.new("Frame", G2L["c8"]);
-G2L["10c"]["ZIndex"] = 0;
-G2L["10c"]["BorderSizePixel"] = 0;
-G2L["10c"]["BackgroundColor3"] = Color3.fromRGB(39, 39, 39);
-G2L["10c"]["Size"] = UDim2.new(0.18235, 0, 1, 0);
-G2L["10c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10c"]["Name"] = [[ButtonsList]];
+G2L["125"] = Instance.new("Frame", G2L["e1"]);
+G2L["125"]["ZIndex"] = 0;
+G2L["125"]["BorderSizePixel"] = 0;
+G2L["125"]["BackgroundColor3"] = Color3.fromRGB(39, 39, 39);
+G2L["125"]["Size"] = UDim2.new(0.18235, 0, 1, 0);
+G2L["125"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["125"]["Name"] = [[ButtonsList]];
 
 
 -- StarterGui.KraskaHUB.PrisonScript.ButtonsList.UICorner
-G2L["10d"] = Instance.new("UICorner", G2L["10c"]);
+G2L["126"] = Instance.new("UICorner", G2L["125"]);
 
 
 
 -- StarterGui.KraskaHUB.PrisonScript.UIDragDetector
-G2L["10e"] = Instance.new("UIDragDetector", G2L["c8"]);
+G2L["127"] = Instance.new("UIDragDetector", G2L["e1"]);
 
 
 
 -- StarterGui.KraskaHUB.PrisonScript.Sound
-G2L["10f"] = Instance.new("ImageButton", G2L["c8"]);
-G2L["10f"]["BorderSizePixel"] = 0;
-G2L["10f"]["BackgroundTransparency"] = 1;
+G2L["128"] = Instance.new("ImageButton", G2L["e1"]);
+G2L["128"]["BorderSizePixel"] = 0;
+G2L["128"]["BackgroundTransparency"] = 1;
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["10f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10f"]["Image"] = [[rbxassetid://8625441570]];
-G2L["10f"]["Size"] = UDim2.new(0.03222, 0, 0.07034, 0);
-G2L["10f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10f"]["Name"] = [[Sound]];
-G2L["10f"]["Position"] = UDim2.new(0.19977, 0, 0.92778, 0);
+G2L["128"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["128"]["Image"] = [[rbxassetid://8625441570]];
+G2L["128"]["Size"] = UDim2.new(0.03222, 0, 0.07034, 0);
+G2L["128"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["128"]["Name"] = [[Sound]];
+G2L["128"]["Position"] = UDim2.new(0.19977, 0, 0.92778, 0);
 
 
 -- StarterGui.KraskaHUB.PrisonScript.Sound.LocalScript
-G2L["110"] = Instance.new("LocalScript", G2L["10f"]);
+G2L["129"] = Instance.new("LocalScript", G2L["128"]);
 
 
 
 -- StarterGui.KraskaHUB.PrisonScript.Sound.Sound On
-G2L["111"] = Instance.new("Decal", G2L["10f"]);
+G2L["12a"] = Instance.new("Decal", G2L["128"]);
 -- [ERROR] cannot convert TextureContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["111"]["Name"] = [[Sound On]];
-G2L["111"]["Texture"] = [[http://www.roblox.com/asset/?id=8625422354]];
+G2L["12a"]["Name"] = [[Sound On]];
+G2L["12a"]["Texture"] = [[http://www.roblox.com/asset/?id=8625422354]];
 
 
 -- StarterGui.KraskaHUB.PrisonScript.Sound.Sound Off
-G2L["112"] = Instance.new("Decal", G2L["10f"]);
+G2L["12b"] = Instance.new("Decal", G2L["128"]);
 -- [ERROR] cannot convert TextureContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["112"]["Name"] = [[Sound Off]];
-G2L["112"]["Texture"] = [[http://www.roblox.com/asset/?id=8625441570]];
+G2L["12b"]["Name"] = [[Sound Off]];
+G2L["12b"]["Texture"] = [[http://www.roblox.com/asset/?id=8625441570]];
 
 
 -- StarterGui.KraskaHUB.OpenGUI
-G2L["113"] = Instance.new("Frame", G2L["1"]);
-G2L["113"]["Visible"] = false;
-G2L["113"]["BorderSizePixel"] = 0;
-G2L["113"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["113"]["Size"] = UDim2.new(0.00338, 0, 0.02498, 0);
-G2L["113"]["Position"] = UDim2.new(0.03731, 0, 0.78151, 0);
-G2L["113"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["113"]["Name"] = [[OpenGUI]];
-G2L["113"]["BackgroundTransparency"] = 0.3;
+G2L["12c"] = Instance.new("Frame", G2L["1"]);
+G2L["12c"]["Visible"] = false;
+G2L["12c"]["BorderSizePixel"] = 0;
+G2L["12c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12c"]["Size"] = UDim2.new(0.00338, 0, 0.02498, 0);
+G2L["12c"]["Position"] = UDim2.new(0.03731, 0, 0.78151, 0);
+G2L["12c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12c"]["Name"] = [[OpenGUI]];
+G2L["12c"]["BackgroundTransparency"] = 0.3;
 
 
 -- StarterGui.KraskaHUB.OpenGUI.OpenGUI
-G2L["114"] = Instance.new("Frame", G2L["113"]);
-G2L["114"]["BorderSizePixel"] = 0;
-G2L["114"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["114"]["Size"] = UDim2.new(18.28238, 0, 1.77191, 0);
-G2L["114"]["Position"] = UDim2.new(-8.76906, 0, 0.93862, 0);
-G2L["114"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["114"]["Name"] = [[OpenGUI]];
-G2L["114"]["BackgroundTransparency"] = 0.3;
+G2L["12d"] = Instance.new("Frame", G2L["12c"]);
+G2L["12d"]["BorderSizePixel"] = 0;
+G2L["12d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12d"]["Size"] = UDim2.new(18.28238, 0, 1.77191, 0);
+G2L["12d"]["Position"] = UDim2.new(-8.76906, 0, 0.93862, 0);
+G2L["12d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12d"]["Name"] = [[OpenGUI]];
+G2L["12d"]["BackgroundTransparency"] = 0.3;
 
 
 -- StarterGui.KraskaHUB.OpenGUI.OpenGUI.UICorner
-G2L["115"] = Instance.new("UICorner", G2L["114"]);
+G2L["12e"] = Instance.new("UICorner", G2L["12d"]);
 
 
 
 -- StarterGui.KraskaHUB.OpenGUI.UICorner
-G2L["116"] = Instance.new("UICorner", G2L["113"]);
+G2L["12f"] = Instance.new("UICorner", G2L["12c"]);
 
 
 
 -- StarterGui.KraskaHUB.OpenGUI.Presser
-G2L["117"] = Instance.new("TextButton", G2L["113"]);
-G2L["117"]["TextWrapped"] = true;
-G2L["117"]["BorderSizePixel"] = 0;
-G2L["117"]["TextSize"] = 14;
-G2L["117"]["TextScaled"] = true;
-G2L["117"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["117"]["BackgroundColor3"] = Color3.fromRGB(135, 135, 135);
-G2L["117"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["117"]["ZIndex"] = 2;
-G2L["117"]["BackgroundTransparency"] = 0.45;
-G2L["117"]["Size"] = UDim2.new(15.98933, 0, 1.29857, 0);
-G2L["117"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["117"]["Text"] = [[Click here to open Hub]];
-G2L["117"]["Name"] = [[Presser]];
-G2L["117"]["Position"] = UDim2.new(-7.7097, 0, 1.19682, 0);
+G2L["130"] = Instance.new("TextButton", G2L["12c"]);
+G2L["130"]["TextWrapped"] = true;
+G2L["130"]["BorderSizePixel"] = 0;
+G2L["130"]["TextSize"] = 14;
+G2L["130"]["TextScaled"] = true;
+G2L["130"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["130"]["BackgroundColor3"] = Color3.fromRGB(135, 135, 135);
+G2L["130"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["130"]["ZIndex"] = 2;
+G2L["130"]["BackgroundTransparency"] = 0.45;
+G2L["130"]["Size"] = UDim2.new(15.98933, 0, 1.29857, 0);
+G2L["130"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["130"]["Text"] = [[Click here to open Hub]];
+G2L["130"]["Name"] = [[Presser]];
+G2L["130"]["Position"] = UDim2.new(-7.7097, 0, 1.19682, 0);
 
 
 -- StarterGui.KraskaHUB.OpenGUI.Presser.LocalScript
-G2L["118"] = Instance.new("LocalScript", G2L["117"]);
+G2L["131"] = Instance.new("LocalScript", G2L["130"]);
 
 
 
 -- StarterGui.KraskaHUB.OpenGUI.Presser.UICorner
-G2L["119"] = Instance.new("UICorner", G2L["117"]);
+G2L["132"] = Instance.new("UICorner", G2L["130"]);
 
 
 
 -- StarterGui.KraskaHUB.OpenGUI.Presser.UIStroke
-G2L["11a"] = Instance.new("UIStroke", G2L["117"]);
+G2L["133"] = Instance.new("UIStroke", G2L["130"]);
 
 
 
 -- StarterGui.KraskaHUB.OpenGUI.Presser.Change
-G2L["11b"] = Instance.new("StringValue", G2L["117"]);
-G2L["11b"]["Name"] = [[Change]];
-G2L["11b"]["Value"] = [[Library]];
+G2L["134"] = Instance.new("StringValue", G2L["130"]);
+G2L["134"]["Name"] = [[Change]];
+G2L["134"]["Value"] = [[Library]];
 
 
 -- StarterGui.KraskaHUB.OpenGUI.ImageLabel
-G2L["11c"] = Instance.new("ImageLabel", G2L["113"]);
-G2L["11c"]["ZIndex"] = 5;
-G2L["11c"]["BorderSizePixel"] = 0;
-G2L["11c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["135"] = Instance.new("ImageLabel", G2L["12c"]);
+G2L["135"]["ZIndex"] = 5;
+G2L["135"]["BorderSizePixel"] = 0;
+G2L["135"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 -- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
-G2L["11c"]["Image"] = [[rbxassetid://5270363]];
-G2L["11c"]["Size"] = UDim2.new(13.21733, 0, 2.09763, 0);
-G2L["11c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11c"]["BackgroundTransparency"] = 1;
-G2L["11c"]["Rotation"] = -23;
-G2L["11c"]["Position"] = UDim2.new(-6.16846, 0, -0.55663, 0);
+G2L["135"]["Image"] = [[rbxassetid://5270363]];
+G2L["135"]["Size"] = UDim2.new(13.21733, 0, 2.09763, 0);
+G2L["135"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["135"]["BackgroundTransparency"] = 1;
+G2L["135"]["Rotation"] = -23;
+G2L["135"]["Position"] = UDim2.new(-6.16846, 0, -0.55663, 0);
 
 
 -- StarterGui.KraskaHUB.OpenGUI.UIDragDetector
-G2L["11d"] = Instance.new("UIDragDetector", G2L["113"]);
+G2L["136"] = Instance.new("UIDragDetector", G2L["12c"]);
 
 
 
 -- StarterGui.KraskaHUB.Value
-G2L["11e"] = Instance.new("NumberValue", G2L["1"]);
+G2L["137"] = Instance.new("NumberValue", G2L["1"]);
+
+
+
+-- StarterGui.KraskaHUB.QuickPeak
+G2L["138"] = Instance.new("TextButton", G2L["1"]);
+G2L["138"]["TextWrapped"] = true;
+G2L["138"]["BorderSizePixel"] = 0;
+G2L["138"]["TextSize"] = 14;
+G2L["138"]["TextScaled"] = true;
+G2L["138"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["138"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["138"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["138"]["BackgroundTransparency"] = 0.2;
+G2L["138"]["Size"] = UDim2.new(0.07202, 0, 0.05382, 0);
+G2L["138"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["138"]["Text"] = [[Quick Peak]];
+G2L["138"]["Name"] = [[QuickPeak]];
+G2L["138"]["Visible"] = false;
+G2L["138"]["Position"] = UDim2.new(0.78687, 0, 0.63756, 0);
+
+
+-- StarterGui.KraskaHUB.QuickPeak.UICorner
+G2L["139"] = Instance.new("UICorner", G2L["138"]);
+
+
+
+-- StarterGui.KraskaHUB.QuickPeak.LocalScript
+G2L["13a"] = Instance.new("LocalScript", G2L["138"]);
 
 
 
@@ -3253,16 +3488,30 @@ task.spawn(C_79);
 -- StarterGui.KraskaHUB.Library.Library.TextButton.LocalScript
 local function C_82()
 local script = G2L["82"];
-	local Executor = script.Parent.Parent.Parent.OpenScript
+	local Executor = script.Parent.Parent.Parent.QUICKAP
 	local text = script.Parent
+	local deb = false
 	local Library = script.Parent.Parent.Parent
 	
 	script.Parent.MouseButton1Up:Connect(function()
-		Executor.Visible = true
-		Library.Click:Play()
-		Library.ChoosedCreator.Value = "Kraska"
-		Library.ChoosedGame.Value = "Prison Life"
-		Executor:TweenPosition(UDim2.new(0.319, 0,0.262, 0))
+		if Executor.Visible == false and not deb then
+			deb = true
+			Executor.Visible = true
+			Library.Click:Play()
+			Executor:TweenSize(UDim2.new(0.121, 0,0.848, 0))
+			wait(1)
+			deb = false
+		elseif Executor.Visible == true and not deb then
+		    deb = true
+			Executor.Visible = true
+			Library.Click:Play()
+			Executor:TweenSize(UDim2.new(0.001, 0,0.848, 0))
+			wait(0.6)
+			Executor.Visible = false
+			wait(1)
+			deb = false
+		end
+		
 	end)
 end;
 task.spawn(C_82);
@@ -3531,9 +3780,164 @@ local script = G2L["c4"];
 	end)
 end;
 task.spawn(C_c4);
+-- StarterGui.KraskaHUB.Library.QUICKAP.TextButton.LocalScript
+local function C_d1()
+local script = G2L["d1"];
+	local tween = game:GetService("TweenService")
+	local info = TweenInfo.new(1)
+	
+	script.Parent.MouseButton1Up:Connect(function()
+		if script.Parent.Value.Value == 0 and script.Parent.Parent.Mode.TextColor3 == Color3.new(0,1,0) and script.Parent.Bee.Value == false and script.Parent.Parent.Fast.Value.Value == true then
+			script.Parent.Value.Value = 1
+			script.Parent.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.Parent.QuickPeak.Visible = true
+			local part = Instance.new("Part", workspace)
+			part.Anchored = true
+			local plr = game:GetService("Players").LocalPlayer
+			plr.Character.Humanoid.WalkSpeed = 30
+			part.CFrame = plr.Character.HumanoidRootPart.CFrame
+			part.CanCollide = false
+			part.Transparency = 0.4
+			part.Name = "QUICKTRAPKRASKA"
+			local image = Instance.new("Decal", part)
+			image.Texture = "http://www.roblox.com/asset/?id=11199270605"
+			script.Parent.TextColor3 = Color3.new(0.756863, 1, 0.439216)
+		elseif script.Parent.Value.Value == 0 and script.Parent.Parent.Mode.TextColor3 == Color3.new(1, 1, 1) and script.Parent.Bee.Value == false and script.Parent.Parent.Fast.Value.Value == true then
+			script.Parent.Value.Value = 1
+			local part = Instance.new("Part", workspace)
+			part.Anchored = true
+			local plr = game:GetService("Players").LocalPlayer
+			plr.Character.Humanoid.WalkSpeed = 30
+			part.CFrame = plr.Character.HumanoidRootPart.CFrame
+			part.CanCollide = false
+			part.Transparency = 0.4
+			part.Name = "QUICKTRAPKRASKA"
+			local image = Instance.new("Decal", part)
+			image.Texture = "http://www.roblox.com/asset/?id=11199270605"
+			script.Parent.TextColor3 = Color3.new(0.756863, 1, 0.439216)
+		elseif script.Parent.Value.Value == 0 and script.Parent.Parent.Mode.TextColor3 == Color3.new(1, 1, 1) and script.Parent.Bee.Value == false then
+			script.Parent.Value.Value = 1
+			local part = Instance.new("Part", workspace)
+			part.Anchored = true
+			local plr = game:GetService("Players").LocalPlayer
+			part.CFrame = plr.Character.HumanoidRootPart.CFrame
+			part.CanCollide = false
+			part.Transparency = 0.4
+			part.Name = "QUICKTRAPKRASKA"
+			local image = Instance.new("Decal", part)
+			image.Texture = "http://www.roblox.com/asset/?id=11199270605"
+			script.Parent.TextColor3 = Color3.new(0.756863, 1, 0.439216)
+		elseif script.Parent.Value.Value == 0 and script.Parent.Parent.Mode.TextColor3 == Color3.new(0,1,0) and script.Parent.Bee.Value == false then
+			script.Parent.Value.Value = 1
+			script.Parent.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.Parent.QuickPeak.Visible = true
+			local part = Instance.new("Part", workspace)
+			part.Anchored = true
+			local plr = game:GetService("Players").LocalPlayer
+			part.CFrame = plr.Character.HumanoidRootPart.CFrame
+			part.CanCollide = false
+			part.Transparency = 0.4
+			part.Name = "QUICKTRAPKRASKA"
+			local image = Instance.new("Decal", part)
+			image.Texture = "http://www.roblox.com/asset/?id=11199270605"
+			script.Parent.TextColor3 = Color3.new(0.756863, 1, 0.439216)
+		
+		elseif script.Parent.Value.Value == 1 and script.Parent.Parent.Mode.TextColor3 == Color3.new(1, 1, 1) and script.Parent.Bee.Value == false then
+			local part = workspace.QUICKTRAPKRASKA
+			local plr = game:GetService("Players").LocalPlayer
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			plr.Character:MoveTo(part.Position)
+			part:Destroy()
+			plr.Character.Humanoid.WalkSpeed = 16
+			wait(0.5)
+			script.Parent.Value.Value = 0
+		elseif script.Parent.Value.Value == 1 and script.Parent.Parent.Mode.TextColor3 == Color3.new(1, 1, 1) and script.Parent.Bee.Value == false and script.Parent.Parent.TweenMode.Value.Value == true then
+			local part = workspace.QUICKTRAPKRASKA
+			local plr = game:GetService("Players").LocalPlayer
+			local animation = tween:Create(plr.Character.HumanoidRootPart, info, {CFrame = part.CFrame})
+			animation:Play()
+			animation.Completed:Wait()
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+			part:Destroy()
+			plr.Character.Humanoid.WalkSpeed = 16
+			wait(0.5)
+			script.Parent.Value.Value = 0
+		end
+		while true do
+			wait()
+			if script.Parent.Bee.Value == true and script.Parent.Parent.TweenMode.Value.Value == false then
+				script.Parent.Parent.Parent.Visible = true
+				script.Parent.Parent.Parent.QUICKAP.Visible = false
+				local part = workspace.QUICKTRAPKRASKA
+				local plr = game:GetService("Players").LocalPlayer
+				script.Parent.TextColor3 = Color3.new(1, 1, 1)
+				plr.Character:MoveTo(part.Position)
+				part:Destroy()
+				plr.Character.Humanoid.WalkSpeed = 16
+				script.Parent.Value.Value = 0
+				script.Parent.Bee.Value = false
+			elseif script.Parent.Bee.Value == true and script.Parent.Parent.TweenMode.Value.Value == true then
+				script.Parent.Parent.Parent.Visible = true
+				script.Parent.Parent.Parent.QUICKAP.Visible = false
+				local part = workspace.QUICKTRAPKRASKA
+				local plr = game:GetService("Players").LocalPlayer
+				local animation = tween:Create(plr.Character.HumanoidRootPart, info, {CFrame = part.CFrame})
+				animation:Play()
+				animation.Completed:Wait()
+				script.Parent.TextColor3 = Color3.new(1, 1, 1)
+				part:Destroy()
+				plr.Character.Humanoid.WalkSpeed = 16
+				script.Parent.Value.Value = 0
+				script.Parent.Bee.Value = false
+			
+			end
+		end	
+	end)
+end;
+task.spawn(C_d1);
+-- StarterGui.KraskaHUB.Library.QUICKAP.Mode.LocalScript
+local function C_d6()
+local script = G2L["d6"];
+	script.Parent.MouseButton1Up:Connect(function()
+		if script.Parent.TextColor3 == Color3.new(0, 1, 0) then
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+		else
+			script.Parent.TextColor3 = Color3.new(0, 1, 0)
+		end
+	end)
+end;
+task.spawn(C_d6);
+-- StarterGui.KraskaHUB.Library.QUICKAP.TweenMode.LocalScript
+local function C_da()
+local script = G2L["da"];
+	script.Parent.MouseButton1Up:Connect(function()
+		if script.Parent.TextColor3 == Color3.new(0, 1, 0) then
+			script.Parent.Value.Value = false
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+		else
+			script.Parent.Value.Value = true
+			script.Parent.TextColor3 = Color3.new(0, 1, 0)
+		end
+	end)
+end;
+task.spawn(C_da);
+-- StarterGui.KraskaHUB.Library.QUICKAP.Fast.LocalScript
+local function C_de()
+local script = G2L["de"];
+	script.Parent.MouseButton1Up:Connect(function()
+		if script.Parent.TextColor3 == Color3.new(0, 1, 0) then
+			script.Parent.Value.Value = false
+			script.Parent.TextColor3 = Color3.new(1, 1, 1)
+		else
+			script.Parent.Value.Value = true
+			script.Parent.TextColor3 = Color3.new(0, 1, 0)
+		end
+	end)
+end;
+task.spawn(C_de);
 -- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.News.LocalScript
-local function C_d0()
-local script = G2L["d0"];
+local function C_e9()
+local script = G2L["e9"];
 	local library = script.Parent.Parent.Parent.Parent.Parent.Library
 	local News = library.News
 	local Frame = script.Parent.Parent.Parent.Parent
@@ -3546,10 +3950,10 @@ local script = G2L["d0"];
 		News.Visible = true
 	end)
 end;
-task.spawn(C_d0);
+task.spawn(C_e9);
 -- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Dots.Seccsion.NAME.LocalScript
-local function C_d7()
-local script = G2L["d7"];
+local function C_f0()
+local script = G2L["f0"];
 	local plr = game:GetService("Players").LocalPlayer
 	
 	
@@ -3557,10 +3961,10 @@ local script = G2L["d7"];
 	
 	
 end;
-task.spawn(C_d7);
+task.spawn(C_f0);
 -- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Tab.LocalScript
-local function C_ef()
-local script = G2L["ef"];
+local function C_108()
+local script = G2L["108"];
 	local player = game:GetService("Players").LocalPlayer
 	local Frame = script.Parent.Parent.Parent
 	local library = Frame.Parent
@@ -3573,10 +3977,10 @@ local script = G2L["ef"];
 		library.Visible = false
 	end)
 end;
-task.spawn(C_ef);
+task.spawn(C_108);
 -- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Library.LocalScript
-local function C_f3()
-local script = G2L["f3"];
+local function C_10c()
+local script = G2L["10c"];
 	local library = script.Parent.Parent.Parent.Parent.Parent.Library
 	local News = library.News
 	local Frame = script.Parent.Parent.Parent.Parent
@@ -3589,10 +3993,10 @@ local script = G2L["f3"];
 		News.Visible = false
 	end)
 end;
-task.spawn(C_f3);
+task.spawn(C_10c);
 -- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Settings.LocalScript
-local function C_f6()
-local script = G2L["f6"];
+local function C_10f()
+local script = G2L["10f"];
 	local library = script.Parent.Parent.Parent.Parent.Parent.Library
 	local News = library.News
 	local Frame = script.Parent.Parent.Parent.Parent
@@ -3606,10 +4010,10 @@ local script = G2L["f6"];
 		News.Visible = false
 	end)
 end;
-task.spawn(C_f6);
+task.spawn(C_10f);
 -- StarterGui.KraskaHUB.PrisonScript.IconsCounter.Buttons.Close.LocalScript
-local function C_f9()
-local script = G2L["f9"];
+local function C_112()
+local script = G2L["112"];
 	local player = game:GetService("Players").LocalPlayer
 	local Frame = script.Parent.Parent.Parent
 	local library = Frame.Parent
@@ -3622,19 +4026,19 @@ local script = G2L["f9"];
 		library.Visible = false
 	end)
 end;
-task.spawn(C_f9);
+task.spawn(C_112);
 -- StarterGui.KraskaHUB.PrisonScript.NoSelected.TextLabel.LocalScript
-local function C_100()
-local script = G2L["100"];
+local function C_119()
+local script = G2L["119"];
 	local player = game:GetService("Players").LocalPlayer
 	local text = script.Parent
 	
 	text.Text = player.Name..", welocome to KraskaHub. The best hub for Roblox."
 end;
-task.spawn(C_100);
+task.spawn(C_119);
 -- StarterGui.KraskaHUB.PrisonScript.Library.TextButton.LocalScript
-local function C_109()
-local script = G2L["109"];
+local function C_122()
+local script = G2L["122"];
 	local Executor = script.Parent.Parent.Parent.OpenScript
 	local text = script.Parent
 	local Library = script.Parent.Parent.Parent
@@ -3647,10 +4051,10 @@ local script = G2L["109"];
 		Executor:TweenPosition(UDim2.new(0.319, 0,0.262, 0))
 	end)
 end;
-task.spawn(C_109);
+task.spawn(C_122);
 -- StarterGui.KraskaHUB.PrisonScript.Sound.LocalScript
-local function C_110()
-local script = G2L["110"];
+local function C_129()
+local script = G2L["129"];
 	local Music = script.Parent.Parent.Parent.Music
 	
 	script.Parent.MouseButton1Up:Connect(function()
@@ -3663,10 +4067,10 @@ local script = G2L["110"];
 		end
 	end)
 end;
-task.spawn(C_110);
+task.spawn(C_129);
 -- StarterGui.KraskaHUB.OpenGUI.Presser.LocalScript
-local function C_118()
-local script = G2L["118"];
+local function C_131()
+local script = G2L["131"];
 	script.Parent.MouseButton1Up:Connect(function()
 		script.Parent.Parent.Visible = false
 		local value = script.Parent.Change.Value
@@ -3678,6 +4082,15 @@ local script = G2L["118"];
 		end
 	end)
 end;
-task.spawn(C_118);
+task.spawn(C_131);
+-- StarterGui.KraskaHUB.QuickPeak.LocalScript
+local function C_13a()
+local script = G2L["13a"];
+	script.Parent.MouseButton1Up:Connect(function()
+		script.Parent.Parent.Library.QUICKAP.TextButton.Bee.Value = true
+		script.Parent.Visible = false
+	end)
+end;
+task.spawn(C_13a);
 
 return G2L["1"], require;
