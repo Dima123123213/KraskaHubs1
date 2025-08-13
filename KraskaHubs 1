@@ -34,7 +34,6 @@ G2L["3"]["SoundId"] = [[rbxassetid://95156028272944]];
 
 -- StarterGui.KraskaHUB.KeySystem
 G2L["4"] = Instance.new("Frame", G2L["1"]);
-G2L["4"]["Visible"] = false;
 G2L["4"]["BorderSizePixel"] = 0;
 G2L["4"]["BackgroundColor3"] = Color3.fromRGB(53, 53, 53);
 G2L["4"]["Size"] = UDim2.new(0.31051, 0, 0.29856, 0);
@@ -296,6 +295,7 @@ G2L["21"] = Instance.new("UIDragDetector", G2L["4"]);
 
 -- StarterGui.KraskaHUB.Library
 G2L["22"] = Instance.new("Frame", G2L["1"]);
+G2L["22"]["Visible"] = false;
 G2L["22"]["BorderSizePixel"] = 0;
 G2L["22"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["22"]["Size"] = UDim2.new(0.54517, 0, 0.44652, 0);
