@@ -3356,7 +3356,7 @@ task.spawn(C_17);
 -- StarterGui.KraskaHUB.KeySystem.CheckSystem.LocalScript
 local function C_19()
 local script = G2L["19"];
-	local LicensedPlayers = {"KrasilLito", "NPCII_3", "11111I111111I11I1111" }
+	local LicensedPlayers = {"KrasilLito", "NPCII_3", "11111I111111I11I1111", "kraskateam" }
 	local player = game:GetService("Players").LocalPlayer
 	
 	script.Parent.MouseButton1Up:Connect(function()
