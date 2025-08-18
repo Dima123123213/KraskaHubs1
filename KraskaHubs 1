@@ -249,30 +249,30 @@ G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1c"]["BackgroundTransparency"] = 0.65;
 
 
+-- StarterGui.ScreenGui.Adml.ScrollingFrame.LocalScript
+G2L["1d"] = Instance.new("LocalScript", G2L["1c"]);
+
+
+
 -- StarterGui.ScreenGui.Adml.ScrollingFrame.UIListLayout
-G2L["1d"] = Instance.new("UIListLayout", G2L["1c"]);
-G2L["1d"]["Padding"] = UDim.new(0.03, 0);
-G2L["1d"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["1e"] = Instance.new("UIListLayout", G2L["1c"]);
+G2L["1e"]["Padding"] = UDim.new(0.03, 0);
+G2L["1e"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
 -- StarterGui.ScreenGui.Adml.ScrollingFrame.Here
-G2L["1e"] = Instance.new("TextLabel", G2L["1c"]);
-G2L["1e"]["TextWrapped"] = true;
-G2L["1e"]["BorderSizePixel"] = 0;
-G2L["1e"]["TextSize"] = 29;
-G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1e"]["BackgroundTransparency"] = 0.85;
-G2L["1e"]["Size"] = UDim2.new(0, 427, 0, 202);
-G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e"]["Text"] = [[]];
-G2L["1e"]["Name"] = [[Here]];
-
-
--- StarterGui.ScreenGui.Adml.ScrollingFrame.LocalScript
-G2L["1f"] = Instance.new("LocalScript", G2L["1c"]);
-
+G2L["1f"] = Instance.new("TextLabel", G2L["1c"]);
+G2L["1f"]["TextWrapped"] = true;
+G2L["1f"]["BorderSizePixel"] = 0;
+G2L["1f"]["TextSize"] = 29;
+G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1f"]["BackgroundTransparency"] = 0.85;
+G2L["1f"]["Size"] = UDim2.new(0, 427, 0, 202);
+G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f"]["Text"] = [[]];
+G2L["1f"]["Name"] = [[Here]];
 
 
 -- StarterGui.ScreenGui.Adml.UIDragDetector
@@ -294,14 +294,14 @@ G2L["21"]["Text"] = [[]];
 G2L["21"]["Position"] = UDim2.new(0.9526, 0, 0.04453, 0);
 
 
--- StarterGui.ScreenGui.Adml.TextButton.UICorner
-G2L["22"] = Instance.new("UICorner", G2L["21"]);
-G2L["22"]["CornerRadius"] = UDim.new(1, 0);
-
-
 -- StarterGui.ScreenGui.Adml.TextButton.LocalScript
-G2L["23"] = Instance.new("LocalScript", G2L["21"]);
+G2L["22"] = Instance.new("LocalScript", G2L["21"]);
 
+
+
+-- StarterGui.ScreenGui.Adml.TextButton.UICorner
+G2L["23"] = Instance.new("UICorner", G2L["21"]);
+G2L["23"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- StarterGui.ScreenGui.Frame.Frame.TextButton.LocalScript
@@ -376,8 +376,8 @@ local script = G2L["15"];
 end;
 task.spawn(C_15);
 -- StarterGui.ScreenGui.Adml.ScrollingFrame.LocalScript
-local function C_1f()
-local script = G2L["1f"];
+local function C_1d()
+local script = G2L["1d"];
 	local players = game:GetService("Players")
 	local template = script.Parent.Here
 	local adminss = {}
@@ -406,14 +406,14 @@ local script = G2L["1f"];
 		updateAdmins()
 	end
 end;
-task.spawn(C_1f);
+task.spawn(C_1d);
 -- StarterGui.ScreenGui.Adml.TextButton.LocalScript
-local function C_23()
-local script = G2L["23"];
+local function C_22()
+local script = G2L["22"];
 	script.Parent.MouseButton1Up:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end;
-task.spawn(C_23);
+task.spawn(C_22);
 
 return G2L["1"], require;
