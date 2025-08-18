@@ -1,738 +1,616 @@
---[=[
- d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
-88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
-88      88    88    88            odD'      88      88    88 88ooo88 
-88  ooo 88    88    88          .88'        88      88    88 88~~~88 
-88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
- Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
-]=]
-
--- Instances: 35 | Scripts: 6 | Modules: 0 | Tags: 0
-local G2L = {};
-
--- StarterGui.ScreenGui
-G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
-G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
-G2L["1"]["ResetOnSpawn"] = false;
-
-
--- StarterGui.ScreenGui.Krnl
-G2L["2"] = Instance.new("Frame", G2L["1"]);
-G2L["2"]["BorderSizePixel"] = 0;
-G2L["2"]["BackgroundColor3"] = Color3.fromRGB(66, 66, 66);
-G2L["2"]["Size"] = UDim2.new(0, 783, 0, 494);
-G2L["2"]["Position"] = UDim2.new(0.29547, 0, 0.2706, 0);
-G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2"]["Name"] = [[Krnl]];
-G2L["2"]["BackgroundTransparency"] = 0.2;
-
-
--- StarterGui.ScreenGui.Krnl.Rdsf
-G2L["3"] = Instance.new("Frame", G2L["2"]);
-G2L["3"]["BorderSizePixel"] = 0;
-G2L["3"]["BackgroundColor3"] = Color3.fromRGB(186, 186, 186);
-G2L["3"]["Size"] = UDim2.new(0, 610, 0, 17);
-G2L["3"]["Position"] = UDim2.new(0.10728, 0, 0.02839, 0);
-G2L["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3"]["Name"] = [[Rdsf]];
-
-
--- StarterGui.ScreenGui.Krnl.Rdsf.UIStroke
-G2L["4"] = Instance.new("UIStroke", G2L["3"]);
-G2L["4"]["Color"] = Color3.fromRGB(95, 95, 95);
-
-
--- StarterGui.ScreenGui.Krnl.Rdsf.UICorner
-G2L["5"] = Instance.new("UICorner", G2L["3"]);
-
-
-
--- StarterGui.ScreenGui.Krnl.Rdsf.TextLabel
-G2L["6"] = Instance.new("TextLabel", G2L["3"]);
-G2L["6"]["TextWrapped"] = true;
-G2L["6"]["BorderSizePixel"] = 0;
-G2L["6"]["TextSize"] = 14;
-G2L["6"]["TextScaled"] = true;
-G2L["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6"]["BackgroundTransparency"] = 1;
-G2L["6"]["Size"] = UDim2.new(0, 610, 0, 17);
-G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6"]["Text"] = [[www.kraska/roleplay/cheatexp/private]];
-G2L["6"]["Position"] = UDim2.new(0.00328, 0, 0, 0);
-
-
--- StarterGui.ScreenGui.Krnl.Sfsdfs
-G2L["7"] = Instance.new("Frame", G2L["2"]);
-G2L["7"]["BorderSizePixel"] = 0;
-G2L["7"]["BackgroundColor3"] = Color3.fromRGB(55, 55, 55);
-G2L["7"]["Size"] = UDim2.new(0, 321, 0, 275);
-G2L["7"]["Position"] = UDim2.new(0.58925, 0, 0.09721, 0);
-G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7"]["Name"] = [[Sfsdfs]];
-G2L["7"]["BackgroundTransparency"] = 0.4;
-
-
--- StarterGui.ScreenGui.Krnl.Sfsdfs.UIStroke
-G2L["8"] = Instance.new("UIStroke", G2L["7"]);
-G2L["8"]["Color"] = Color3.fromRGB(95, 95, 95);
-
-
--- StarterGui.ScreenGui.Krnl.Sfsdfs.TextButton
-G2L["9"] = Instance.new("TextButton", G2L["7"]);
-G2L["9"]["TextWrapped"] = true;
-G2L["9"]["BorderSizePixel"] = 0;
-G2L["9"]["TextSize"] = 14;
-G2L["9"]["TextScaled"] = true;
-G2L["9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9"]["BackgroundColor3"] = Color3.fromRGB(145, 145, 145);
-G2L["9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["9"]["BackgroundTransparency"] = 0.35;
-G2L["9"]["Size"] = UDim2.new(0, 132, 0, 34);
-G2L["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9"]["Text"] = [[Admin list]];
-G2L["9"]["Position"] = UDim2.new(0.01869, 0, 0.03273, 0);
-
-
--- StarterGui.ScreenGui.Krnl.Sfsdfs.TextButton.LocalScript
-G2L["a"] = Instance.new("LocalScript", G2L["9"]);
-
-
-
--- StarterGui.ScreenGui.Krnl.ScrollingFrame
-G2L["b"] = Instance.new("ScrollingFrame", G2L["2"]);
-G2L["b"]["Active"] = true;
-G2L["b"]["BorderSizePixel"] = 0;
-G2L["b"]["BackgroundColor3"] = Color3.fromRGB(55, 55, 55);
-G2L["b"]["Size"] = UDim2.new(0, 411, 0, 275);
-G2L["b"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b"]["Position"] = UDim2.new(-0.001, 0, 0.097, 0);
-G2L["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b"]["BackgroundTransparency"] = 0.4;
-
-
--- StarterGui.ScreenGui.Krnl.ScrollingFrame.UIStroke
-G2L["c"] = Instance.new("UIStroke", G2L["b"]);
-G2L["c"]["Color"] = Color3.fromRGB(95, 95, 95);
-
-
--- StarterGui.ScreenGui.Krnl.ScrollingFrame.Sdadad
-G2L["d"] = Instance.new("TextButton", G2L["b"]);
-G2L["d"]["TextWrapped"] = true;
-G2L["d"]["BorderSizePixel"] = 0;
-G2L["d"]["TextSize"] = 14;
-G2L["d"]["TextScaled"] = true;
-G2L["d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
-G2L["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d"]["BackgroundTransparency"] = 0.65;
-G2L["d"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d"]["Text"] = [[Teleport List:]];
-G2L["d"]["Name"] = [[Sdadad]];
-G2L["d"]["Position"] = UDim2.new(0, 0, -0.0004, 0);
-
-
--- StarterGui.ScreenGui.Krnl.ScrollingFrame.Sdadad.LocalScript
-G2L["e"] = Instance.new("LocalScript", G2L["d"]);
-
-
-
--- StarterGui.ScreenGui.Krnl.ScrollingFrame.Sdadad.Value
-G2L["f"] = Instance.new("StringValue", G2L["d"]);
-G2L["f"]["Value"] = [[Nothing]];
-
-
--- StarterGui.ScreenGui.Krnl.ScrollingFrame.UIListLayout
-G2L["10"] = Instance.new("UIListLayout", G2L["b"]);
-G2L["10"]["Padding"] = UDim.new(0.005, 0);
-G2L["10"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
-
-
--- StarterGui.ScreenGui.Krnl.ggggg
-G2L["11"] = Instance.new("ScrollingFrame", G2L["2"]);
-G2L["11"]["Active"] = true;
-G2L["11"]["BorderSizePixel"] = 0;
-G2L["11"]["BackgroundColor3"] = Color3.fromRGB(55, 55, 55);
-G2L["11"]["Name"] = [[ggggg]];
-G2L["11"]["Size"] = UDim2.new(0, 783, 0, 132);
-G2L["11"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11"]["Position"] = UDim2.new(0, 0, 0.731, 0);
-G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11"]["BackgroundTransparency"] = 0.4;
-
-
--- StarterGui.ScreenGui.Krnl.ggggg.UIStroke
-G2L["12"] = Instance.new("UIStroke", G2L["11"]);
-G2L["12"]["Color"] = Color3.fromRGB(95, 95, 95);
-
-
--- StarterGui.ScreenGui.Krnl.dgsdgs
-G2L["13"] = Instance.new("TextButton", G2L["2"]);
-G2L["13"]["TextWrapped"] = true;
-G2L["13"]["BorderSizePixel"] = 0;
-G2L["13"]["TextSize"] = 14;
-G2L["13"]["TextScaled"] = true;
-G2L["13"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["13"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["13"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["13"]["BackgroundTransparency"] = 0.5;
-G2L["13"]["Size"] = UDim2.new(0, 52, 0, 24);
-G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["13"]["Text"] = [[File]];
-G2L["13"]["Name"] = [[dgsdgs]];
-G2L["13"]["Position"] = UDim2.new(0.01149, 0, 0.02024, 0);
-
-
--- StarterGui.ScreenGui.Krnl.dgsdgs.LocalScript
-G2L["14"] = Instance.new("LocalScript", G2L["13"]);
-
-
-
--- StarterGui.ScreenGui.Krnl.dgsdgs.LocalScript
-G2L["15"] = Instance.new("LocalScript", G2L["13"]);
-
-
-
--- StarterGui.ScreenGui.Krnl.dgsdgs.Value
-G2L["16"] = Instance.new("BoolValue", G2L["13"]);
-
-
-
--- StarterGui.ScreenGui.Krnl.UIDragDetector
-G2L["17"] = Instance.new("UIDragDetector", G2L["2"]);
-
-
-
--- StarterGui.ScreenGui.Krnl.UIDragDetector
-G2L["18"] = Instance.new("UIDragDetector", G2L["2"]);
-
-
-
--- StarterGui.ScreenGui.Adml
-G2L["19"] = Instance.new("Frame", G2L["1"]);
-G2L["19"]["Visible"] = false;
-G2L["19"]["BorderSizePixel"] = 0;
-G2L["19"]["BackgroundColor3"] = Color3.fromRGB(50, 50, 50);
-G2L["19"]["Size"] = UDim2.new(0, 443, 0, 247);
-G2L["19"]["Position"] = UDim2.new(0.57269, 0, 0.02315, 0);
-G2L["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["19"]["Name"] = [[Adml]];
-G2L["19"]["BackgroundTransparency"] = 0.1;
-
-
--- StarterGui.ScreenGui.Adml.TextLabel
-G2L["1a"] = Instance.new("TextLabel", G2L["19"]);
-G2L["1a"]["TextWrapped"] = true;
-G2L["1a"]["BorderSizePixel"] = 0;
-G2L["1a"]["TextSize"] = 14;
-G2L["1a"]["TextScaled"] = true;
-G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a"]["BackgroundTransparency"] = 0.7;
-G2L["1a"]["Size"] = UDim2.new(0, 388, 0, 21);
-G2L["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a"]["Text"] = [[www.kraska/roleplay/cheatexp/private]];
-G2L["1a"]["Position"] = UDim2.new(0.06095, 0, 0.02834, 0);
-
-
--- StarterGui.ScreenGui.Adml.TextLabel.UICorner
-G2L["1b"] = Instance.new("UICorner", G2L["1a"]);
-
-
-
--- StarterGui.ScreenGui.Adml.ScrollingFrame
-G2L["1c"] = Instance.new("ScrollingFrame", G2L["19"]);
-G2L["1c"]["Active"] = true;
-G2L["1c"]["BorderSizePixel"] = 0;
-G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c"]["Size"] = UDim2.new(0, 427, 0, 202);
-G2L["1c"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c"]["Position"] = UDim2.new(0.016, 0, 0.154, 0);
-G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c"]["BackgroundTransparency"] = 0.65;
-
-
--- StarterGui.ScreenGui.Adml.ScrollingFrame.LocalScript
-G2L["1d"] = Instance.new("LocalScript", G2L["1c"]);
-
-
-
--- StarterGui.ScreenGui.Adml.ScrollingFrame.UIListLayout
-G2L["1e"] = Instance.new("UIListLayout", G2L["1c"]);
-G2L["1e"]["Padding"] = UDim.new(0.03, 0);
-G2L["1e"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
-
-
--- StarterGui.ScreenGui.Adml.ScrollingFrame.Here
-G2L["1f"] = Instance.new("TextLabel", G2L["1c"]);
-G2L["1f"]["TextWrapped"] = true;
-G2L["1f"]["BorderSizePixel"] = 0;
-G2L["1f"]["TextSize"] = 29;
-G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1f"]["BackgroundTransparency"] = 0.85;
-G2L["1f"]["Size"] = UDim2.new(0, 427, 0, 202);
-G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1f"]["Text"] = [[]];
-G2L["1f"]["Name"] = [[Here]];
-
-
--- StarterGui.ScreenGui.Adml.UIDragDetector
-G2L["20"] = Instance.new("UIDragDetector", G2L["19"]);
-
-
-
--- StarterGui.ScreenGui.Adml.TextButton
-G2L["21"] = Instance.new("TextButton", G2L["19"]);
-G2L["21"]["TextWrapped"] = true;
-G2L["21"]["BorderSizePixel"] = 0;
-G2L["21"]["TextSize"] = 14;
-G2L["21"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["21"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["21"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["21"]["Size"] = UDim2.new(0, 12, 0, 13);
-G2L["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["21"]["Text"] = [[]];
-G2L["21"]["Position"] = UDim2.new(0.9526, 0, 0.04453, 0);
-
-
--- StarterGui.ScreenGui.Adml.TextButton.LocalScript
-G2L["22"] = Instance.new("LocalScript", G2L["21"]);
-
-
-
--- StarterGui.ScreenGui.Adml.TextButton.UICorner
-G2L["23"] = Instance.new("UICorner", G2L["21"]);
-G2L["23"]["CornerRadius"] = UDim.new(1, 0);
-
-
--- StarterGui.ScreenGui.Krnl.Sfsdfs.TextButton.LocalScript
-local function C_a()
-local script = G2L["a"];
-	local gui = script.Parent.Parent.Parent.Parent
-	local players = game:GetService("Players")
-	
-	script.Parent.MouseButton1Up:Connect(function()
-		gui.Adml.Visible = true
-	end)
-end;
-task.spawn(C_a);
--- StarterGui.ScreenGui.Krnl.ScrollingFrame.Sdadad.LocalScript
-local function C_e()
-local script = G2L["e"];
-	local template = script.Parent
-	local buttons = {}
-	local valu = nil
-	
-	script.Parent.MouseButton1Up:Connect(function()
-		local plr = game.Players.LocalPlayer
-		if not script.Parent:FindFirstChild("Value") then
-			for _, value in pairs(script.Parent:GetChildren()) do
-				if value:IsA("StringValue") then
-					valu = value
-				end
-			end
-			for _, players in pairs(game.Players:GetPlayers()) do
-				if valu.Name == players.Name then
-					print(players.Name)
-					plr.Character.HumanoidRootPart.CFrame = players.Character.HumanoidRootPart.CFrame
-				end
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Enabled = false
+ScreenGui.ResetOnSpawn = false
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.Parent = game.StarterGui
+local Krnl = Instance.new("Frame")
+Krnl.BackgroundColor3 = Color3.new(0.2549019753932953,0.2549019753932953,0.2549019753932953)
+Krnl.BackgroundTransparency = 0.20000000298023224
+Krnl.BorderColor3 = Color3.new(0,0,0)
+Krnl.BorderSizePixel = 0
+Krnl.Position = UDim2.new(0.2954663932323456,0,0.27060407400131226,0)
+Krnl.Size = UDim2.new(0,783,0,494)
+Krnl.Name = "Krnl"
+Krnl.Parent = ScreenGui
+local Rdsf = Instance.new("Frame")
+Rdsf.BackgroundColor3 = Color3.new(0.7254902124404907,0.7254902124404907,0.7254902124404907)
+Rdsf.BorderColor3 = Color3.new(0,0,0)
+Rdsf.BorderSizePixel = 0
+Rdsf.Position = UDim2.new(0.1072796955704689,0,0.028385547921061516,0)
+Rdsf.Size = UDim2.new(0,610,0,17)
+Rdsf.Name = "Rdsf"
+Rdsf.Parent = Krnl
+local UIStroke = Instance.new("UIStroke")
+UIStroke.Color = Color3.new(0.3686274588108063,0.3686274588108063,0.3686274588108063)
+UIStroke.Parent = Rdsf
+local UICorner = Instance.new("UICorner")
+UICorner.Parent = Rdsf
+local TextLabel = Instance.new("TextLabel")
+TextLabel.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+TextLabel.Text = "www.kraska/roleplay/cheatexp/private"
+TextLabel.TextColor3 = Color3.new(0,0,0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+TextLabel.BackgroundColor3 = Color3.new(1,1,1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0,0,0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0032786885276436806,0,0,0)
+TextLabel.Size = UDim2.new(0,610,0,17)
+TextLabel.Parent = Rdsf
+local Sfsdfs = Instance.new("Frame")
+Sfsdfs.BackgroundColor3 = Color3.new(0.21176470816135406,0.21176470816135406,0.21176470816135406)
+Sfsdfs.BackgroundTransparency = 0.4000000059604645
+Sfsdfs.BorderColor3 = Color3.new(0,0,0)
+Sfsdfs.BorderSizePixel = 0
+Sfsdfs.Position = UDim2.new(0.5892488360404968,0,0.09721145778894424,0)
+Sfsdfs.Size = UDim2.new(0,321,0,275)
+Sfsdfs.Name = "Sfsdfs"
+Sfsdfs.Parent = Krnl
+local UIStroke1 = Instance.new("UIStroke")
+UIStroke1.Color = Color3.new(0.3686274588108063,0.3686274588108063,0.3686274588108063)
+UIStroke1.Parent = Sfsdfs
+local TextButton = Instance.new("TextButton")
+TextButton.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+TextButton.Text = "Admin list"
+TextButton.TextColor3 = Color3.new(1,1,1)
+TextButton.TextScaled = true
+TextButton.TextSize = 14
+TextButton.TextWrapped = true
+TextButton.BackgroundColor3 = Color3.new(0.5647059082984924,0.5647059082984924,0.5647059082984924)
+TextButton.BackgroundTransparency = 0.3499999940395355
+TextButton.BorderColor3 = Color3.new(0,0,0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.018691588193178177,0,0.03272727131843567,0)
+TextButton.Size = UDim2.new(0,132,0,34)
+TextButton.Parent = Sfsdfs
+local LocalScript = Instance.new("LocalScript")
+LocalScript.Source = 'local gui = script.Parent.Parent.Parent.Parent
+local players = game:GetService("Players")
+
+script.Parent.MouseButton1Up:Connect(function()
+	gui.Adml.Visible = true
+end)'
+LocalScript.Parent = TextButton
+local ScrollingFrame = Instance.new("ScrollingFrame")
+ScrollingFrame.ScrollBarImageColor3 = Color3.new(0,0,0)
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.new(0.21176470816135406,0.21176470816135406,0.21176470816135406)
+ScrollingFrame.BackgroundTransparency = 0.4000000059604645
+ScrollingFrame.BorderColor3 = Color3.new(0,0,0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(-0.0010000255424529314,0,0.09699999541044235,0)
+ScrollingFrame.Size = UDim2.new(0,411,0,275)
+ScrollingFrame.Parent = Krnl
+local LocalScript1 = Instance.new("LocalScript")
+LocalScript1.Source = "local template = script.Parent.Sdadad
+local buttons = {}
+local valu = nil
+
+function clearButtons()
+	for _, button in pairs(buttons) do
+		button:Destroy()
+	end
+	buttons = {}
+end
+
+function update()
+	clearButtons()
+
+	for _, player in pairs(game.Players:GetPlayers()) do
+		local newButton = template:Clone()
+		newButton.Value.Name = player.Name
+		newButton.Text = player.Name
+		newButton.Parent = template.Parent
+		newButton.Visible = true
+		table.insert(buttons, newButton)
+	end
+end
+
+game.Players.PlayerAdded:Connect(update)
+while true do
+	wait(4)
+	update()
+end
+"
+LocalScript1.Parent = ScrollingFrame
+local UIStroke2 = Instance.new("UIStroke")
+UIStroke2.Color = Color3.new(0.3686274588108063,0.3686274588108063,0.3686274588108063)
+UIStroke2.Parent = ScrollingFrame
+local Sdadad = Instance.new("TextButton")
+Sdadad.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+Sdadad.Text = "Teleport List:"
+Sdadad.TextColor3 = Color3.new(1,1,1)
+Sdadad.TextScaled = true
+Sdadad.TextSize = 14
+Sdadad.TextWrapped = true
+Sdadad.BackgroundColor3 = Color3.new(0.13725490868091583,0.13725490868091583,0.13725490868091583)
+Sdadad.BackgroundTransparency = 0.6499999761581421
+Sdadad.BorderColor3 = Color3.new(0,0,0)
+Sdadad.BorderSizePixel = 0
+Sdadad.Position = UDim2.new(0,0,-0.000396728515625,0)
+Sdadad.Size = UDim2.new(0,200,0,28)
+Sdadad.Name = "Sdadad"
+Sdadad.Parent = ScrollingFrame
+local LocalScript2 = Instance.new("LocalScript")
+LocalScript2.Source = 'local valu = nil
+
+script.Parent.MouseButton1Up:Connect(function()
+	local plr = game.Players.LocalPlayer
+	if not script.Parent:FindFirstChild("Value") then
+		for _, value in pairs(script.Parent:GetChildren()) do
+			if value:IsA("StringValue") then
+				valu = value
 			end
 		end
-	end)
-	
-	function clearButtons()
-		for _, button in pairs(buttons) do
-			button:Destroy()
-		end
-		buttons = {}
-	end
-	
-	function update()
-		clearButtons()
-	
-		for _, player in pairs(game.Players:GetPlayers()) do
-			local newButton = template:Clone()
-			newButton.Value.Name = player.Name
-			newButton.Text = player.Name
-			newButton.Parent = template.Parent
-			newButton.Visible = true
-			table.insert(buttons, newButton)
+		for _, players in pairs(game.Players:GetPlayers()) do
+			if valu.Name == players.Name then
+				print(players.Name)
+				plr.Character.HumanoidRootPart.CFrame = players.Character.HumanoidRootPart.CFrame
+			end
 		end
 	end
-	
-	game.Players.PlayerAdded:Connect(update)
-	while true do
-		wait(0.1)
-		update()
-	end
-	
-end;
-task.spawn(C_e);
--- StarterGui.ScreenGui.Krnl.dgsdgs.LocalScript
-local function C_14()
-local script = G2L["14"];
-	local input = game:GetService("UserInputService")
-	speeds = 1
-	local hirosima = true
-	local velocityHandlerName
-	local gyroHandlerName
-	local camera
-	local v3none
-	local v3zero
-	local v3inf
-	local Plr = game:GetService("Players").LocalPlayer
-	local controlModule
-	local bv
-	local bg
-	local mfly1
-	local mfly2
-	local speaker = game:GetService("Players").LocalPlayer
-	
-	local chr = game.Players.LocalPlayer.Character
-	local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
-	
-	nowe = false
-	
-	
-	input.InputBegan:Connect(function(inpit)
-		if inpit.KeyCode == Enum.KeyCode.B then
+end)'
+LocalScript2.Parent = Sdadad
+local Value = Instance.new("StringValue")
+Value.Value = "Nothing"
+Value.Parent = Sdadad
+local UIListLayout = Instance.new("UIListLayout")
+UIListLayout.Padding = UDim.new(0.004999999888241291,0)
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Parent = ScrollingFrame
+local ggggg = Instance.new("ScrollingFrame")
+ggggg.ScrollBarImageColor3 = Color3.new(0,0,0)
+ggggg.Active = true
+ggggg.BackgroundColor3 = Color3.new(0.21176470816135406,0.21176470816135406,0.21176470816135406)
+ggggg.BackgroundTransparency = 0.4000000059604645
+ggggg.BorderColor3 = Color3.new(0,0,0)
+ggggg.BorderSizePixel = 0
+ggggg.Position = UDim2.new(0,0,0.7310000061988831,0)
+ggggg.Size = UDim2.new(0,783,0,132)
+ggggg.Name = "ggggg"
+ggggg.Parent = Krnl
+local UIStroke3 = Instance.new("UIStroke")
+UIStroke3.Color = Color3.new(0.3686274588108063,0.3686274588108063,0.3686274588108063)
+UIStroke3.Parent = ggggg
+local dgsdgs = Instance.new("TextButton")
+dgsdgs.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+dgsdgs.Text = "File"
+dgsdgs.TextColor3 = Color3.new(0,0,0)
+dgsdgs.TextScaled = true
+dgsdgs.TextSize = 14
+dgsdgs.TextWrapped = true
+dgsdgs.BackgroundColor3 = Color3.new(1,1,1)
+dgsdgs.BackgroundTransparency = 0.5
+dgsdgs.BorderColor3 = Color3.new(0,0,0)
+dgsdgs.BorderSizePixel = 0
+dgsdgs.Position = UDim2.new(0.01149425283074379,0,0.02024291455745697,0)
+dgsdgs.Size = UDim2.new(0,52,0,24)
+dgsdgs.Name = "dgsdgs"
+dgsdgs.Parent = Krnl
+local LocalScript3 = Instance.new("LocalScript")
+LocalScript3.Source = 'local input = game:GetService("UserInputService")
+speeds = 1
+local hirosima = true
+local velocityHandlerName
+local gyroHandlerName
+local camera
+local v3none
+local v3zero
+local v3inf
+local Plr = game:GetService("Players").LocalPlayer
+local controlModule
+local bv
+local bg
+local mfly1
+local mfly2
+local speaker = game:GetService("Players").LocalPlayer
+
+local chr = game.Players.LocalPlayer.Character
+local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
+
+nowe = false
+
+
+input.InputBegan:Connect(function(inpit)
+	if inpit.KeyCode == Enum.KeyCode.B then
+		if nowe == true then
+			nowe = false
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,true)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,true)
+			speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics)
+		else 
+			nowe = true
+
+
+
+			for i = 1, speeds do
+				spawn(function()
+
+					local hb = game:GetService("RunService").Heartbeat	
+
+
+					tpwalking = true
+					local chr = game.Players.LocalPlayer.Character
+					local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
+					while tpwalking and hb:Wait() and chr and hum and hum.Parent do
+						if hum.MoveDirection.Magnitude > 0 then
+							chr:TranslateBy(hum.MoveDirection)
+						end
+					end
+
+				end)
+			end
+			game.Players.LocalPlayer.Character.Animate.Disabled = true
+			local Char = game.Players.LocalPlayer.Character
+			local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController")
+
+			for i,v in next, Hum:GetPlayingAnimationTracks() do
+				v:AdjustSpeed(0)
+			end
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,false)
+			speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,false)
+			speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Swimming)
+		end
+
+
+
+
+		if game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid").RigType == Enum.HumanoidRigType.R6 then
+
+
+
+			local plr = game.Players.LocalPlayer
+			local torso = plr.Character.Torso
+			local flying = true
+			local deb = true
+			local ctrl = {f = 0, b = 0, l = 0, r = 0}
+			local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			local maxspeed = 50
+			local speed = 0
+
+
+			local bg = Instance.new("BodyGyro", torso)
+			bg.P = 9e4
+			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+			bg.cframe = torso.CFrame
+			local bv = Instance.new("BodyVelocity", torso)
+			bv.velocity = Vector3.new(0,0.1,0)
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
 			if nowe == true then
-				nowe = false
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,true)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,true)
-				speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics)
-			else 
-				nowe = true
-	
-	
-	
-				for i = 1, speeds do
-					spawn(function()
-	
-						local hb = game:GetService("RunService").Heartbeat	
-	
-	
-						tpwalking = true
-						local chr = game.Players.LocalPlayer.Character
-						local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
-						while tpwalking and hb:Wait() and chr and hum and hum.Parent do
-							if hum.MoveDirection.Magnitude > 0 then
-								chr:TranslateBy(hum.MoveDirection)
-							end
-						end
-	
-					end)
-				end
-				game.Players.LocalPlayer.Character.Animate.Disabled = true
-				local Char = game.Players.LocalPlayer.Character
-				local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController")
-	
-				for i,v in next, Hum:GetPlayingAnimationTracks() do
-					v:AdjustSpeed(0)
-				end
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,false)
-				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,false)
-				speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Swimming)
+				plr.Character.Humanoid.PlatformStand = true
 			end
-	
-	
-	
-	
-			if game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid").RigType == Enum.HumanoidRigType.R6 then
-	
-	
-	
-				local plr = game.Players.LocalPlayer
-				local torso = plr.Character.Torso
-				local flying = true
-				local deb = true
-				local ctrl = {f = 0, b = 0, l = 0, r = 0}
-				local lastctrl = {f = 0, b = 0, l = 0, r = 0}
-				local maxspeed = 50
-				local speed = 0
-	
-	
-				local bg = Instance.new("BodyGyro", torso)
-				bg.P = 9e4
-				bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
-				bg.cframe = torso.CFrame
-				local bv = Instance.new("BodyVelocity", torso)
-				bv.velocity = Vector3.new(0,0.1,0)
-				bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
-				if nowe == true then
-					plr.Character.Humanoid.PlatformStand = true
-				end
-				while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
-					game:GetService("RunService").RenderStepped:Wait()
-	
-					if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
-						speed = speed+.5+(speed/maxspeed)
-						if speed > maxspeed then
-							speed = maxspeed
-						end
-					elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
-						speed = speed-1
-						if speed < 0 then
-							speed = 0
-						end
+			while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
+				game:GetService("RunService").RenderStepped:Wait()
+
+				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+					speed = speed+.5+(speed/maxspeed)
+					if speed > maxspeed then
+						speed = maxspeed
 					end
-					if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
-						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-						lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
-					elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
-						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-					else
-						bv.velocity = Vector3.new(0,0,0)
+				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+					speed = speed-1
+					if speed < 0 then
+						speed = 0
 					end
-					--	game.Players.LocalPlayer.Character.Animate.Disabled = true
-					bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
 				end
-				ctrl = {f = 0, b = 0, l = 0, r = 0}
-				lastctrl = {f = 0, b = 0, l = 0, r = 0}
-				speed = 0
-				bg:Destroy()
-				bv:Destroy()
-				plr.Character.Humanoid.PlatformStand = false
-				game.Players.LocalPlayer.Character.Animate.Disabled = false
-				tpwalking = false
-			else
-				local plr = game.Players.LocalPlayer
-				local UpperTorso = plr.Character.UpperTorso
-				local flying = true
-				local deb = true
-				local ctrl = {f = 0, b = 0, l = 0, r = 0}
-				local lastctrl = {f = 0, b = 0, l = 0, r = 0}
-				local maxspeed = 50
-				local speed = 0
-				local bg = Instance.new("BodyGyro", UpperTorso)
-				bg.P = 9e4
-				bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
-				bg.cframe = UpperTorso.CFrame
-				local bv = Instance.new("BodyVelocity", UpperTorso)
-				bv.velocity = Vector3.new(0,0.1,0)
-				bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
-				if nowe == true then
-					plr.Character.Humanoid.PlatformStand = true
+				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+				else
+					bv.velocity = Vector3.new(0,0,0)
 				end
-				while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
-					wait()
-					if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
-						speed = speed+.5+(speed/maxspeed)
-						if speed > maxspeed then
-							speed = maxspeed
-						end
-					elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
-						speed = speed-1
-						if speed < 0 then
-							speed = 0
-						end
-					end
-					if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
-						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-						lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
-					elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
-						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-					else
-						bv.velocity = Vector3.new(0,0,0)
-					end
-					bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
-				end
-				ctrl = {f = 0, b = 0, l = 0, r = 0}
-				lastctrl = {f = 0, b = 0, l = 0, r = 0}
-				speed = 0
-				bg:Destroy()
-				bv:Destroy()
-				plr.Character.Humanoid.PlatformStand = false
-				game.Players.LocalPlayer.Character.Animate.Disabled = false
-				tpwalking = false
+				--	game.Players.LocalPlayer.Character.Animate.Disabled = true
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
 			end
+			ctrl = {f = 0, b = 0, l = 0, r = 0}
+			lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			speed = 0
+			bg:Destroy()
+			bv:Destroy()
+			plr.Character.Humanoid.PlatformStand = false
+			game.Players.LocalPlayer.Character.Animate.Disabled = false
+			tpwalking = false
+		else
+			local plr = game.Players.LocalPlayer
+			local UpperTorso = plr.Character.UpperTorso
+			local flying = true
+			local deb = true
+			local ctrl = {f = 0, b = 0, l = 0, r = 0}
+			local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			local maxspeed = 50
+			local speed = 0
+			local bg = Instance.new("BodyGyro", UpperTorso)
+			bg.P = 9e4
+			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+			bg.cframe = UpperTorso.CFrame
+			local bv = Instance.new("BodyVelocity", UpperTorso)
+			bv.velocity = Vector3.new(0,0.1,0)
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+			if nowe == true then
+				plr.Character.Humanoid.PlatformStand = true
+			end
+			while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
+				wait()
+				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+					speed = speed+.5+(speed/maxspeed)
+					if speed > maxspeed then
+						speed = maxspeed
+					end
+				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+					speed = speed-1
+					if speed < 0 then
+						speed = 0
+					end
+				end
+				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+				else
+					bv.velocity = Vector3.new(0,0,0)
+				end
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+			end
+			ctrl = {f = 0, b = 0, l = 0, r = 0}
+			lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			speed = 0
+			bg:Destroy()
+			bv:Destroy()
+			plr.Character.Humanoid.PlatformStand = false
+			game.Players.LocalPlayer.Character.Animate.Disabled = false
+			tpwalking = false
 		end
-		if inpit.KeyCode == Enum.KeyCode.N then
-			--Enable Fly Function
-			local function EnableFly()
-	
-				velocityHandlerName = 32
-				gyroHandlerName = 64
-				camera = workspace.CurrentCamera
-				v3none = Vector3.new()
-				v3zero = Vector3.new(0, 0, 0)
-				v3inf = Vector3.new(9e9, 9e9, 9e9)
-				controlModule = require(game.Players.LocalPlayer.PlayerScripts:WaitForChild("PlayerModule"):WaitForChild("ControlModule"))
-	
-				bv = Instance.new("BodyVelocity")
+	end
+	if inpit.KeyCode == Enum.KeyCode.N then
+		--Enable Fly Function
+		local function EnableFly()
+
+			velocityHandlerName = 32
+			gyroHandlerName = 64
+			camera = workspace.CurrentCamera
+			v3none = Vector3.new()
+			v3zero = Vector3.new(0, 0, 0)
+			v3inf = Vector3.new(9e9, 9e9, 9e9)
+			controlModule = require(game.Players.LocalPlayer.PlayerScripts:WaitForChild("PlayerModule"):WaitForChild("ControlModule"))
+
+			bv = Instance.new("BodyVelocity")
+			bv.Name = velocityHandlerName
+			bv.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+			bv.MaxForce = v3zero
+			bv.Velocity = v3zero
+
+			bg = Instance.new("BodyGyro")
+			bg.Name = gyroHandlerName
+			bg.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+			bg.MaxTorque = v3inf
+			bg.P = 1000
+			bg.D = 50
+
+			mfly1 = game.Players.LocalPlayer.CharacterAdded:Connect(function()
+				local bv = Instance.new("BodyVelocity")
 				bv.Name = velocityHandlerName
 				bv.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
 				bv.MaxForce = v3zero
 				bv.Velocity = v3zero
-	
+
 				bg = Instance.new("BodyGyro")
 				bg.Name = gyroHandlerName
 				bg.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
 				bg.MaxTorque = v3inf
 				bg.P = 1000
 				bg.D = 50
-	
-				mfly1 = game.Players.LocalPlayer.CharacterAdded:Connect(function()
-					local bv = Instance.new("BodyVelocity")
-					bv.Name = velocityHandlerName
-					bv.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
-					bv.MaxForce = v3zero
-					bv.Velocity = v3zero
-	
-					bg = Instance.new("BodyGyro")
-					bg.Name = gyroHandlerName
-					bg.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
-					bg.MaxTorque = v3inf
-					bg.P = 1000
-					bg.D = 50
-				end)
-	
-				mfly2 = game:GetService('RunService').RenderStepped:Connect(function()
-					camera = workspace.CurrentCamera
-					local speed = 2 -- Default to 1 if input is invalid
-	
-					if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid") 
-						and game.Players.LocalPlayer.Character.HumanoidRootPart 
-						and game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName) 
-						and game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName) then
-	
-						local humanoid = game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid")
-						local VelocityHandler = game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName)
-						local GyroHandler = game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName)
-	
-						VelocityHandler.MaxForce = v3inf
-						GyroHandler.MaxTorque = v3inf
-						GyroHandler.CFrame = camera.CFrame
-	
-						local direction = controlModule:GetMoveVector()
-						local calculatedVelocity = v3none
-	
-						-- Apply movement based on direction and speed
-						calculatedVelocity = calculatedVelocity 
-							+ camera.CFrame.RightVector * direction.X * speed * 50
-						- camera.CFrame.LookVector * direction.Z * speed * 50
-	
-						VelocityHandler.Velocity = calculatedVelocity
-					end
-				end)
-			end
-			--
-	
-	
-			--Disable Fly Function
-			local function DisableFly()
-				if game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName) and game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName) then
-					game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName):Destroy()
-					game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName):Destroy()
-				end
-				game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid").PlatformStand = false
-				if mfly1 then
-					mfly1:Disconnect()
-				end
-				if mfly2 then
-					mfly2:Disconnect()
-				end
-			end
-			if hirosima then
-				hirosima = false
-				print("ddsss")
-				EnableFly()
-				else
-				hirosima = true
-				DisableFly()
-				--
-			end
-		end
-			
-	end)
-end;
-task.spawn(C_14);
--- StarterGui.ScreenGui.Krnl.dgsdgs.LocalScript
-local function C_15()
-local script = G2L["15"];
-	script.Parent.MouseButton1Up:Connect(function()
-		if script.Parent.Value.Value == false then
-			script.Parent.Value.Value = true
-			script.Parent.TextColor3 = Color3.new(0, 1, 0.2)
-			script.Parent.LocalScript.Enabled = true
-		else
-			script.Parent.TextColor3 = Color3.new(1, 0, 0)
-			script.Parent.LocalScript.Enabled = false
-			script.Parent.Value.Value = false
-		end
-	end)
-end;
-task.spawn(C_15);
--- StarterGui.ScreenGui.Adml.ScrollingFrame.LocalScript
-local function C_1d()
-local script = G2L["1d"];
-	local players = game:GetService("Players")
-	local template = script.Parent.Here
-	local adminss = {}
-	
-	local function updateAdmins()
-		adminss = {}
-	
-		for _, player in pairs(players:GetPlayers()) do
-			if player.TeamColor == BrickColor.new("Really red") then
-				table.insert(adminss, player.Name)
-			end
-		end
-	
-		template.Text = table.concat(adminss, "\n")
-	end
-	
-	
-	updateAdmins()
-	
-	
-	
-	
-	
-	while true do
-		wait(5)
-		updateAdmins()
-	end
-end;
-task.spawn(C_1d);
--- StarterGui.ScreenGui.Adml.TextButton.LocalScript
-local function C_22()
-local script = G2L["22"];
-	script.Parent.MouseButton1Up:Connect(function()
-		script.Parent.Parent.Visible = false
-	end)
-end;
-task.spawn(C_22);
+			end)
 
-return G2L["1"], require;
+			mfly2 = game:GetService('RunService').RenderStepped:Connect(function()
+				camera = workspace.CurrentCamera
+				local speed = 2 -- Default to 1 if input is invalid
+
+				if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid") 
+					and game.Players.LocalPlayer.Character.HumanoidRootPart 
+					and game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName) 
+					and game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName) then
+
+					local humanoid = game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid")
+					local VelocityHandler = game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName)
+					local GyroHandler = game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName)
+
+					VelocityHandler.MaxForce = v3inf
+					GyroHandler.MaxTorque = v3inf
+					GyroHandler.CFrame = camera.CFrame
+
+					local direction = controlModule:GetMoveVector()
+					local calculatedVelocity = v3none
+
+					-- Apply movement based on direction and speed
+					calculatedVelocity = calculatedVelocity 
+						+ camera.CFrame.RightVector * direction.X * speed * 50
+					- camera.CFrame.LookVector * direction.Z * speed * 50
+
+					VelocityHandler.Velocity = calculatedVelocity
+				end
+			end)
+		end
+		--
+
+
+		--Disable Fly Function
+		local function DisableFly()
+			if game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName) and game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName) then
+				game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName):Destroy()
+				game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName):Destroy()
+			end
+			game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid").PlatformStand = false
+			if mfly1 then
+				mfly1:Disconnect()
+			end
+			if mfly2 then
+				mfly2:Disconnect()
+			end
+		end
+		if hirosima then
+			hirosima = false
+			print("ddsss")
+			EnableFly()
+			else
+			hirosima = true
+			DisableFly()
+			--
+		end
+	end
+		
+end)'
+LocalScript3.Parent = dgsdgs
+local LocalScript4 = Instance.new("LocalScript")
+LocalScript4.Source = "script.Parent.MouseButton1Up:Connect(function()
+	if script.Parent.Value.Value == false then
+		script.Parent.Value.Value = true
+		script.Parent.TextColor3 = Color3.new(0, 1, 0.2)
+		script.Parent.LocalScript.Enabled = true
+	else
+		script.Parent.TextColor3 = Color3.new(1, 0, 0)
+		script.Parent.LocalScript.Enabled = false
+		script.Parent.Value.Value = false
+	end
+end)"
+LocalScript4.Parent = dgsdgs
+local Value1 = Instance.new("BoolValue")
+Value1.Parent = dgsdgs
+local UIDragDetector = Instance.new("UIDragDetector")
+UIDragDetector.Parent = Krnl
+local UIDragDetector1 = Instance.new("UIDragDetector")
+UIDragDetector1.Parent = Krnl
+local Adml = Instance.new("Frame")
+Adml.BackgroundColor3 = Color3.new(0.19215688109397888,0.19215688109397888,0.19215688109397888)
+Adml.BackgroundTransparency = 0.10000000149011612
+Adml.BorderColor3 = Color3.new(0,0,0)
+Adml.BorderSizePixel = 0
+Adml.Position = UDim2.new(0.5726941227912903,0,0.02315274439752102,0)
+Adml.Size = UDim2.new(0,443,0,247)
+Adml.Visible = false
+Adml.Name = "Adml"
+Adml.Parent = ScreenGui
+local TextLabel1 = Instance.new("TextLabel")
+TextLabel1.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+TextLabel1.Text = "www.kraska/roleplay/cheatexp/private"
+TextLabel1.TextColor3 = Color3.new(0,0,0)
+TextLabel1.TextScaled = true
+TextLabel1.TextSize = 14
+TextLabel1.TextWrapped = true
+TextLabel1.BackgroundColor3 = Color3.new(1,1,1)
+TextLabel1.BackgroundTransparency = 0.699999988079071
+TextLabel1.BorderColor3 = Color3.new(0,0,0)
+TextLabel1.BorderSizePixel = 0
+TextLabel1.Position = UDim2.new(0.06094808131456375,0,0.028340080752968788,0)
+TextLabel1.Size = UDim2.new(0,388,0,21)
+TextLabel1.Parent = Adml
+local UICorner1 = Instance.new("UICorner")
+UICorner1.Parent = TextLabel
+local ScrollingFrame1 = Instance.new("ScrollingFrame")
+ScrollingFrame1.ScrollBarImageColor3 = Color3.new(0,0,0)
+ScrollingFrame1.Active = true
+ScrollingFrame1.BackgroundColor3 = Color3.new(0,0,0)
+ScrollingFrame1.BackgroundTransparency = 0.6499999761581421
+ScrollingFrame1.BorderColor3 = Color3.new(0,0,0)
+ScrollingFrame1.BorderSizePixel = 0
+ScrollingFrame1.Position = UDim2.new(0.01600000075995922,0,0.15399999916553497,0)
+ScrollingFrame1.Size = UDim2.new(0,427,0,202)
+ScrollingFrame1.Parent = Adml
+local LocalScript5 = Instance.new("LocalScript")
+LocalScript5.Source = 'local players = game:GetService("Players")
+local template = script.Parent.Here
+local adminss = {}
+
+local function updateAdmins()
+	adminss = {}
+
+	for _, player in pairs(players:GetPlayers()) do
+		if player.TeamColor == BrickColor.new("Really red") then
+			table.insert(adminss, player.Name)
+		end
+	end
+
+	template.Text = table.concat(adminss, "\n")
+end
+
+
+updateAdmins()
+
+
+
+
+
+while true do
+	wait(5)
+	updateAdmins()
+end'
+LocalScript5.Parent = ScrollingFrame
+local UIListLayout1 = Instance.new("UIListLayout")
+UIListLayout1.Padding = UDim.new(0.029999999329447746,0)
+UIListLayout1.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout1.Parent = ScrollingFrame
+local Here = Instance.new("TextLabel")
+Here.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+Here.Text = ""
+Here.TextColor3 = Color3.new(1,1,1)
+Here.TextSize = 29
+Here.TextWrapped = true
+Here.BackgroundColor3 = Color3.new(1,1,1)
+Here.BackgroundTransparency = 0.8500000238418579
+Here.BorderColor3 = Color3.new(0,0,0)
+Here.BorderSizePixel = 0
+Here.Size = UDim2.new(0,427,0,202)
+Here.Name = "Here"
+Here.Parent = ScrollingFrame
+local UIDragDetector2 = Instance.new("UIDragDetector")
+UIDragDetector2.Parent = Adml
+local TextButton1 = Instance.new("TextButton")
+TextButton1.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json",Enum.FontWeight.Regular,Enum.FontStyle.Normal)
+TextButton1.Text = ""
+TextButton1.TextColor3 = Color3.new(1,0,0)
+TextButton1.TextSize = 14
+TextButton1.TextWrapped = true
+TextButton1.BackgroundColor3 = Color3.new(1,0,0)
+TextButton1.BorderColor3 = Color3.new(0,0,0)
+TextButton1.BorderSizePixel = 0
+TextButton1.Position = UDim2.new(0.9525959491729736,0,0.044534411281347275,0)
+TextButton1.Size = UDim2.new(0,12,0,13)
+TextButton1.Parent = Adml
+local LocalScript6 = Instance.new("LocalScript")
+LocalScript6.Source = "script.Parent.MouseButton1Up:Connect(function()
+	script.Parent.Parent.Visible = false
+end)"
+LocalScript6.Parent = TextButton
+local UICorner2 = Instance.new("UICorner")
+UICorner2.CornerRadius = UDim.new(1,0)
+UICorner2.Parent = TextButton
