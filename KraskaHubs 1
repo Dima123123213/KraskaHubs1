@@ -13,6 +13,7 @@ local G2L = {};
 -- StarterGui.ScreenGui
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+G2L["1"]["ResetOnSpawn"] = false;
 
 
 -- StarterGui.ScreenGui.Frame
@@ -319,16 +320,22 @@ task.spawn(C_a);
 local function C_e()
 local script = G2L["e"];
 	local template = script.Parent
-	local buttons = {} -- Таблица для хранения созданных кнопок
+	local buttons = {}
+	local valu = nil
 	
 	script.Parent.MouseButton1Up:Connect(function()
-		local tp = script.Parent.Value
-		if script.Parent.Value.Value ~= "Nothing" then
-			local plr = game.Players.LocalPlayer
-			local value = script.Parent.Value.Value
-			if game.Players:FindFirstChild(value) then
-				local pla = game.Players:FindFirstChild(value)
-				plr.Character:MoveTo(pla.Character.HumanoidRootPart.Position)
+		local plr = game.Players.LocalPlayer
+		if not script.Parent:FindFirstChild("Value") then
+			for _, value in pairs(script.Parent:GetChildren()) do
+				if value:IsA("StringValue") then
+					valu = value
+				end
+			end
+			for _, players in pairs(game.Players:GetPlayers()) do
+				if valu.Name == players.Name then
+					print(players.Name)
+					plr.Character.HumanoidRootPart.CFrame = players.Character.HumanoidRootPart.CFrame
+				end
 			end
 		end
 	end)
@@ -337,19 +344,19 @@ local script = G2L["e"];
 		for _, button in pairs(buttons) do
 			button:Destroy()
 		end
-		buttons = {} -- Очищаем таблицу
+		buttons = {}
 	end
 	
 	function update()
-		clearButtons() -- Сначала удаляем все существующие кнопки
+		clearButtons()
 	
 		for _, player in pairs(game.Players:GetPlayers()) do
 			local newButton = template:Clone()
-			newButton.Value.Value = player.Name
+			newButton.Value.Name = player.Name
 			newButton.Text = player.Name
 			newButton.Parent = template.Parent
 			newButton.Visible = true
-			table.insert(buttons, newButton) -- Сохраняем ссылку на кнопку
+			table.insert(buttons, newButton)
 		end
 	end
 	
@@ -367,8 +374,10 @@ local script = G2L["15"];
 	script.Parent.MouseButton1Up:Connect(function()
 		if script.Parent.Value.Value == false then
 			script.Parent.Value.Value = true
+			script.Parent.TextColor3 = Color3.new(0, 1, 0.2)
 			script.Parent.LocalScript.Enabled = true
 		else
+			script.Parent.TextColor3 = Color3.new(1, 0, 0)
 			script.Parent.LocalScript.Enabled = false
 			script.Parent.Value.Value = false
 		end
