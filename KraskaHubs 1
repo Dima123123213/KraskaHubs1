@@ -16,36 +16,38 @@ G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 G2L["1"]["ResetOnSpawn"] = false;
 
 
--- StarterGui.ScreenGui.Frame
+-- StarterGui.ScreenGui.Krnl
 G2L["2"] = Instance.new("Frame", G2L["1"]);
 G2L["2"]["BorderSizePixel"] = 0;
 G2L["2"]["BackgroundColor3"] = Color3.fromRGB(66, 66, 66);
 G2L["2"]["Size"] = UDim2.new(0, 783, 0, 494);
 G2L["2"]["Position"] = UDim2.new(0.29547, 0, 0.2706, 0);
 G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Name"] = [[Krnl]];
 G2L["2"]["BackgroundTransparency"] = 0.2;
 
 
--- StarterGui.ScreenGui.Frame.Frame
+-- StarterGui.ScreenGui.Krnl.Rdsf
 G2L["3"] = Instance.new("Frame", G2L["2"]);
 G2L["3"]["BorderSizePixel"] = 0;
 G2L["3"]["BackgroundColor3"] = Color3.fromRGB(186, 186, 186);
 G2L["3"]["Size"] = UDim2.new(0, 610, 0, 17);
 G2L["3"]["Position"] = UDim2.new(0.10728, 0, 0.02839, 0);
 G2L["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3"]["Name"] = [[Rdsf]];
 
 
--- StarterGui.ScreenGui.Frame.Frame.UIStroke
+-- StarterGui.ScreenGui.Krnl.Rdsf.UIStroke
 G2L["4"] = Instance.new("UIStroke", G2L["3"]);
 G2L["4"]["Color"] = Color3.fromRGB(95, 95, 95);
 
 
--- StarterGui.ScreenGui.Frame.Frame.UICorner
+-- StarterGui.ScreenGui.Krnl.Rdsf.UICorner
 G2L["5"] = Instance.new("UICorner", G2L["3"]);
 
 
 
--- StarterGui.ScreenGui.Frame.Frame.TextLabel
+-- StarterGui.ScreenGui.Krnl.Rdsf.TextLabel
 G2L["6"] = Instance.new("TextLabel", G2L["3"]);
 G2L["6"]["TextWrapped"] = true;
 G2L["6"]["BorderSizePixel"] = 0;
@@ -61,22 +63,23 @@ G2L["6"]["Text"] = [[www.kraska/roleplay/cheatexp/private]];
 G2L["6"]["Position"] = UDim2.new(0.00328, 0, 0, 0);
 
 
--- StarterGui.ScreenGui.Frame.Frame
+-- StarterGui.ScreenGui.Krnl.Sfsdfs
 G2L["7"] = Instance.new("Frame", G2L["2"]);
 G2L["7"]["BorderSizePixel"] = 0;
 G2L["7"]["BackgroundColor3"] = Color3.fromRGB(55, 55, 55);
 G2L["7"]["Size"] = UDim2.new(0, 321, 0, 275);
 G2L["7"]["Position"] = UDim2.new(0.58925, 0, 0.09721, 0);
 G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Name"] = [[Sfsdfs]];
 G2L["7"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.ScreenGui.Frame.Frame.UIStroke
+-- StarterGui.ScreenGui.Krnl.Sfsdfs.UIStroke
 G2L["8"] = Instance.new("UIStroke", G2L["7"]);
 G2L["8"]["Color"] = Color3.fromRGB(95, 95, 95);
 
 
--- StarterGui.ScreenGui.Frame.Frame.TextButton
+-- StarterGui.ScreenGui.Krnl.Sfsdfs.TextButton
 G2L["9"] = Instance.new("TextButton", G2L["7"]);
 G2L["9"]["TextWrapped"] = true;
 G2L["9"]["BorderSizePixel"] = 0;
@@ -92,12 +95,12 @@ G2L["9"]["Text"] = [[Admin list]];
 G2L["9"]["Position"] = UDim2.new(0.01869, 0, 0.03273, 0);
 
 
--- StarterGui.ScreenGui.Frame.Frame.TextButton.LocalScript
+-- StarterGui.ScreenGui.Krnl.Sfsdfs.TextButton.LocalScript
 G2L["a"] = Instance.new("LocalScript", G2L["9"]);
 
 
 
--- StarterGui.ScreenGui.Frame.ScrollingFrame
+-- StarterGui.ScreenGui.Krnl.ScrollingFrame
 G2L["b"] = Instance.new("ScrollingFrame", G2L["2"]);
 G2L["b"]["Active"] = true;
 G2L["b"]["BorderSizePixel"] = 0;
@@ -109,12 +112,12 @@ G2L["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["b"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.ScreenGui.Frame.ScrollingFrame.UIStroke
+-- StarterGui.ScreenGui.Krnl.ScrollingFrame.UIStroke
 G2L["c"] = Instance.new("UIStroke", G2L["b"]);
 G2L["c"]["Color"] = Color3.fromRGB(95, 95, 95);
 
 
--- StarterGui.ScreenGui.Frame.ScrollingFrame.TextButton
+-- StarterGui.ScreenGui.Krnl.ScrollingFrame.Sdadad
 G2L["d"] = Instance.new("TextButton", G2L["b"]);
 G2L["d"]["TextWrapped"] = true;
 G2L["d"]["BorderSizePixel"] = 0;
@@ -127,30 +130,32 @@ G2L["d"]["BackgroundTransparency"] = 0.65;
 G2L["d"]["Size"] = UDim2.new(0, 200, 0, 28);
 G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["d"]["Text"] = [[Teleport List:]];
+G2L["d"]["Name"] = [[Sdadad]];
 G2L["d"]["Position"] = UDim2.new(0, 0, -0.0004, 0);
 
 
--- StarterGui.ScreenGui.Frame.ScrollingFrame.TextButton.LocalScript
+-- StarterGui.ScreenGui.Krnl.ScrollingFrame.Sdadad.LocalScript
 G2L["e"] = Instance.new("LocalScript", G2L["d"]);
 
 
 
--- StarterGui.ScreenGui.Frame.ScrollingFrame.TextButton.Value
+-- StarterGui.ScreenGui.Krnl.ScrollingFrame.Sdadad.Value
 G2L["f"] = Instance.new("StringValue", G2L["d"]);
 G2L["f"]["Value"] = [[Nothing]];
 
 
--- StarterGui.ScreenGui.Frame.ScrollingFrame.UIListLayout
+-- StarterGui.ScreenGui.Krnl.ScrollingFrame.UIListLayout
 G2L["10"] = Instance.new("UIListLayout", G2L["b"]);
 G2L["10"]["Padding"] = UDim.new(0.005, 0);
 G2L["10"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 
--- StarterGui.ScreenGui.Frame.ScrollingFrame
+-- StarterGui.ScreenGui.Krnl.ggggg
 G2L["11"] = Instance.new("ScrollingFrame", G2L["2"]);
 G2L["11"]["Active"] = true;
 G2L["11"]["BorderSizePixel"] = 0;
 G2L["11"]["BackgroundColor3"] = Color3.fromRGB(55, 55, 55);
+G2L["11"]["Name"] = [[ggggg]];
 G2L["11"]["Size"] = UDim2.new(0, 783, 0, 132);
 G2L["11"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["11"]["Position"] = UDim2.new(0, 0, 0.731, 0);
@@ -158,12 +163,12 @@ G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["11"]["BackgroundTransparency"] = 0.4;
 
 
--- StarterGui.ScreenGui.Frame.ScrollingFrame.UIStroke
+-- StarterGui.ScreenGui.Krnl.ggggg.UIStroke
 G2L["12"] = Instance.new("UIStroke", G2L["11"]);
 G2L["12"]["Color"] = Color3.fromRGB(95, 95, 95);
 
 
--- StarterGui.ScreenGui.Frame.TextButton
+-- StarterGui.ScreenGui.Krnl.dgsdgs
 G2L["13"] = Instance.new("TextButton", G2L["2"]);
 G2L["13"]["TextWrapped"] = true;
 G2L["13"]["BorderSizePixel"] = 0;
@@ -176,31 +181,31 @@ G2L["13"]["BackgroundTransparency"] = 0.5;
 G2L["13"]["Size"] = UDim2.new(0, 52, 0, 24);
 G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["13"]["Text"] = [[File]];
+G2L["13"]["Name"] = [[dgsdgs]];
 G2L["13"]["Position"] = UDim2.new(0.01149, 0, 0.02024, 0);
 
 
--- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+-- StarterGui.ScreenGui.Krnl.dgsdgs.LocalScript
 G2L["14"] = Instance.new("LocalScript", G2L["13"]);
-G2L["14"]["Enabled"] = false;
-G2L["14"]["Disabled"] = true;
 
 
--- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+
+-- StarterGui.ScreenGui.Krnl.dgsdgs.LocalScript
 G2L["15"] = Instance.new("LocalScript", G2L["13"]);
 
 
 
--- StarterGui.ScreenGui.Frame.TextButton.Value
+-- StarterGui.ScreenGui.Krnl.dgsdgs.Value
 G2L["16"] = Instance.new("BoolValue", G2L["13"]);
 
 
 
--- StarterGui.ScreenGui.Frame.UIDragDetector
+-- StarterGui.ScreenGui.Krnl.UIDragDetector
 G2L["17"] = Instance.new("UIDragDetector", G2L["2"]);
 
 
 
--- StarterGui.ScreenGui.Frame.UIDragDetector
+-- StarterGui.ScreenGui.Krnl.UIDragDetector
 G2L["18"] = Instance.new("UIDragDetector", G2L["2"]);
 
 
@@ -305,7 +310,7 @@ G2L["23"] = Instance.new("UICorner", G2L["21"]);
 G2L["23"]["CornerRadius"] = UDim.new(1, 0);
 
 
--- StarterGui.ScreenGui.Frame.Frame.TextButton.LocalScript
+-- StarterGui.ScreenGui.Krnl.Sfsdfs.TextButton.LocalScript
 local function C_a()
 local script = G2L["a"];
 	local gui = script.Parent.Parent.Parent.Parent
@@ -316,7 +321,7 @@ local script = G2L["a"];
 	end)
 end;
 task.spawn(C_a);
--- StarterGui.ScreenGui.Frame.ScrollingFrame.TextButton.LocalScript
+-- StarterGui.ScreenGui.Krnl.ScrollingFrame.Sdadad.LocalScript
 local function C_e()
 local script = G2L["e"];
 	local template = script.Parent
@@ -368,7 +373,312 @@ local script = G2L["e"];
 	
 end;
 task.spawn(C_e);
--- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+-- StarterGui.ScreenGui.Krnl.dgsdgs.LocalScript
+local function C_14()
+local script = G2L["14"];
+	local input = game:GetService("UserInputService")
+	speeds = 1
+	local hirosima = true
+	local velocityHandlerName
+	local gyroHandlerName
+	local camera
+	local v3none
+	local v3zero
+	local v3inf
+	local Plr = game:GetService("Players").LocalPlayer
+	local controlModule
+	local bv
+	local bg
+	local mfly1
+	local mfly2
+	local speaker = game:GetService("Players").LocalPlayer
+	
+	local chr = game.Players.LocalPlayer.Character
+	local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
+	
+	nowe = false
+	
+	
+	input.InputBegan:Connect(function(inpit)
+		if inpit.KeyCode == Enum.KeyCode.B then
+			if nowe == true then
+				nowe = false
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,true)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,true)
+				speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.RunningNoPhysics)
+			else 
+				nowe = true
+	
+	
+	
+				for i = 1, speeds do
+					spawn(function()
+	
+						local hb = game:GetService("RunService").Heartbeat	
+	
+	
+						tpwalking = true
+						local chr = game.Players.LocalPlayer.Character
+						local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
+						while tpwalking and hb:Wait() and chr and hum and hum.Parent do
+							if hum.MoveDirection.Magnitude > 0 then
+								chr:TranslateBy(hum.MoveDirection)
+							end
+						end
+	
+					end)
+				end
+				game.Players.LocalPlayer.Character.Animate.Disabled = true
+				local Char = game.Players.LocalPlayer.Character
+				local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController")
+	
+				for i,v in next, Hum:GetPlayingAnimationTracks() do
+					v:AdjustSpeed(0)
+				end
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,false)
+				speaker.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,false)
+				speaker.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Swimming)
+			end
+	
+	
+	
+	
+			if game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid").RigType == Enum.HumanoidRigType.R6 then
+	
+	
+	
+				local plr = game.Players.LocalPlayer
+				local torso = plr.Character.Torso
+				local flying = true
+				local deb = true
+				local ctrl = {f = 0, b = 0, l = 0, r = 0}
+				local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+				local maxspeed = 50
+				local speed = 0
+	
+	
+				local bg = Instance.new("BodyGyro", torso)
+				bg.P = 9e4
+				bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+				bg.cframe = torso.CFrame
+				local bv = Instance.new("BodyVelocity", torso)
+				bv.velocity = Vector3.new(0,0.1,0)
+				bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+				if nowe == true then
+					plr.Character.Humanoid.PlatformStand = true
+				end
+				while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
+					game:GetService("RunService").RenderStepped:Wait()
+	
+					if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+						speed = speed+.5+(speed/maxspeed)
+						if speed > maxspeed then
+							speed = maxspeed
+						end
+					elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+						speed = speed-1
+						if speed < 0 then
+							speed = 0
+						end
+					end
+					if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+						lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+					elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					else
+						bv.velocity = Vector3.new(0,0,0)
+					end
+					--	game.Players.LocalPlayer.Character.Animate.Disabled = true
+					bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+				end
+				ctrl = {f = 0, b = 0, l = 0, r = 0}
+				lastctrl = {f = 0, b = 0, l = 0, r = 0}
+				speed = 0
+				bg:Destroy()
+				bv:Destroy()
+				plr.Character.Humanoid.PlatformStand = false
+				game.Players.LocalPlayer.Character.Animate.Disabled = false
+				tpwalking = false
+			else
+				local plr = game.Players.LocalPlayer
+				local UpperTorso = plr.Character.UpperTorso
+				local flying = true
+				local deb = true
+				local ctrl = {f = 0, b = 0, l = 0, r = 0}
+				local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+				local maxspeed = 50
+				local speed = 0
+				local bg = Instance.new("BodyGyro", UpperTorso)
+				bg.P = 9e4
+				bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+				bg.cframe = UpperTorso.CFrame
+				local bv = Instance.new("BodyVelocity", UpperTorso)
+				bv.velocity = Vector3.new(0,0.1,0)
+				bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+				if nowe == true then
+					plr.Character.Humanoid.PlatformStand = true
+				end
+				while nowe == true or game:GetService("Players").LocalPlayer.Character.Humanoid.Health == 0 do
+					wait()
+					if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+						speed = speed+.5+(speed/maxspeed)
+						if speed > maxspeed then
+							speed = maxspeed
+						end
+					elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+						speed = speed-1
+						if speed < 0 then
+							speed = 0
+						end
+					end
+					if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+						lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+					elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					else
+						bv.velocity = Vector3.new(0,0,0)
+					end
+					bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+				end
+				ctrl = {f = 0, b = 0, l = 0, r = 0}
+				lastctrl = {f = 0, b = 0, l = 0, r = 0}
+				speed = 0
+				bg:Destroy()
+				bv:Destroy()
+				plr.Character.Humanoid.PlatformStand = false
+				game.Players.LocalPlayer.Character.Animate.Disabled = false
+				tpwalking = false
+			end
+		end
+		if inpit.KeyCode == Enum.KeyCode.N then
+			--Enable Fly Function
+			local function EnableFly()
+	
+				velocityHandlerName = 32
+				gyroHandlerName = 64
+				camera = workspace.CurrentCamera
+				v3none = Vector3.new()
+				v3zero = Vector3.new(0, 0, 0)
+				v3inf = Vector3.new(9e9, 9e9, 9e9)
+				controlModule = require(game.Players.LocalPlayer.PlayerScripts:WaitForChild("PlayerModule"):WaitForChild("ControlModule"))
+	
+				bv = Instance.new("BodyVelocity")
+				bv.Name = velocityHandlerName
+				bv.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+				bv.MaxForce = v3zero
+				bv.Velocity = v3zero
+	
+				bg = Instance.new("BodyGyro")
+				bg.Name = gyroHandlerName
+				bg.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+				bg.MaxTorque = v3inf
+				bg.P = 1000
+				bg.D = 50
+	
+				mfly1 = game.Players.LocalPlayer.CharacterAdded:Connect(function()
+					local bv = Instance.new("BodyVelocity")
+					bv.Name = velocityHandlerName
+					bv.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+					bv.MaxForce = v3zero
+					bv.Velocity = v3zero
+	
+					bg = Instance.new("BodyGyro")
+					bg.Name = gyroHandlerName
+					bg.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+					bg.MaxTorque = v3inf
+					bg.P = 1000
+					bg.D = 50
+				end)
+	
+				mfly2 = game:GetService('RunService').RenderStepped:Connect(function()
+					camera = workspace.CurrentCamera
+					local speed = 2 -- Default to 1 if input is invalid
+	
+					if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid") 
+						and game.Players.LocalPlayer.Character.HumanoidRootPart 
+						and game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName) 
+						and game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName) then
+	
+						local humanoid = game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid")
+						local VelocityHandler = game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName)
+						local GyroHandler = game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName)
+	
+						VelocityHandler.MaxForce = v3inf
+						GyroHandler.MaxTorque = v3inf
+						GyroHandler.CFrame = camera.CFrame
+	
+						local direction = controlModule:GetMoveVector()
+						local calculatedVelocity = v3none
+	
+						-- Apply movement based on direction and speed
+						calculatedVelocity = calculatedVelocity 
+							+ camera.CFrame.RightVector * direction.X * speed * 50
+						- camera.CFrame.LookVector * direction.Z * speed * 50
+	
+						VelocityHandler.Velocity = calculatedVelocity
+					end
+				end)
+			end
+			--
+	
+	
+			--Disable Fly Function
+			local function DisableFly()
+				if game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName) and game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName) then
+					game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(velocityHandlerName):Destroy()
+					game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild(gyroHandlerName):Destroy()
+				end
+				game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid").PlatformStand = false
+				if mfly1 then
+					mfly1:Disconnect()
+				end
+				if mfly2 then
+					mfly2:Disconnect()
+				end
+			end
+			if hirosima then
+				hirosima = false
+				print("ddsss")
+				EnableFly()
+				else
+				hirosima = true
+				DisableFly()
+				--
+			end
+		end
+			
+	end)
+end;
+task.spawn(C_14);
+-- StarterGui.ScreenGui.Krnl.dgsdgs.LocalScript
 local function C_15()
 local script = G2L["15"];
 	script.Parent.MouseButton1Up:Connect(function()
